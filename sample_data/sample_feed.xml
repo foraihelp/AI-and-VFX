@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <title>Sample mixed feed</title>
+  <entry>
+    <id>yt:video:NukeRel0001</id>
+    <yt:videoId>NukeRel0001</yt:videoId>
+    <title>Nuke 16.0 - What&apos;s New in Foundry Nuke</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=NukeRel0001"/>
+    <author><name>Foundry</name></author>
+    <published>2026-10-01T09:00:00+00:00</published>
+    <media:group><media:description>Release overview of the new compositing features.</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:NukeTut0002</id>
+    <yt:videoId>NukeTut0002</yt:videoId>
+    <title>Nuke compositing tutorial: keying and edge blending</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=NukeTut0002"/>
+    <author><name>VFX Creator</name></author>
+    <published>2026-10-01T12:30:00+00:00</published>
+    <media:group><media:description>Step by step keying workflow in Nuke. https://example.com/links</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:NukeBomb003</id>
+    <yt:videoId>NukeBomb003</yt:videoId>
+    <title>Nuke bomb tactical nuke compilation</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=NukeBomb003"/>
+    <author><name>Gamer Guy</name></author>
+    <published>2026-10-01T10:00:00+00:00</published>
+    <media:group><media:description>Funny nuclear moments in Warzone</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:MochaPro004</id>
+    <yt:videoId>MochaPro004</yt:videoId>
+    <title>Mocha Pro 2026: Planar tracking and new Remove tool</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=MochaPro004"/>
+    <author><name>Boris FX</name></author>
+    <published>2026-09-30T15:00:00+00:00</published>
+    <media:group><media:description>Boris FX presents what&apos;s new in Mocha Pro.</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:Latte000005</id>
+    <yt:videoId>Latte000005</yt:videoId>
+    <title>Best mocha latte recipe at home</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=Latte000005"/>
+    <author><name>Coffee Time</name></author>
+    <published>2026-09-30T08:00:00+00:00</published>
+    <media:group><media:description>Coffee tutorial</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:SilWorkf006</id>
+    <yt:videoId>SilWorkf006</yt:videoId>
+    <title>Silhouette roto workflow for tricky hair mattes</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=SilWorkf006"/>
+    <author><name>Roto Artist</name></author>
+    <published>2026-09-29T18:00:00+00:00</published>
+    <media:group><media:description>Boris FX Silhouette rotoscoping workflow breakdown.</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:Short000007</id>
+    <yt:videoId>Short000007</yt:videoId>
+    <title>Nuke quick tip #shorts</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=Short000007"/>
+    <author><name>VFX Creator</name></author>
+    <published>2026-10-01T13:00:00+00:00</published>
+    <media:group><media:description></media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:NukeRel0001</id>
+    <yt:videoId>NukeRel0001</yt:videoId>
+    <title>Nuke 16.0 - What&apos;s New in Foundry Nuke (duplicate listing)</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=NukeRel0001"/>
+    <author><name>Foundry</name></author>
+    <published>2026-10-01T09:00:00+00:00</published>
+    <media:group><media:description>Release overview of the new compositing features.</media:description></media:group>
+  </entry>
+</feed>

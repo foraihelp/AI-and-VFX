@@ -1,0 +1,94 @@
+# Sources and matching rules. Edit freely - no Python changes needed.
+# To disable something set `enabled: false`; to remove it delete the block.
+#
+# Matching terms are plain words/phrases (case-insensitive, whole words;
+# "mocha pro" also matches "mocha-pro"). They are NOT regular expressions.
+
+software:
+  - id: nuke
+    name: Foundry Nuke
+    strong: [foundry nuke, nukex, nuke studio, nuke 13, nuke 14, nuke 15, nuke 16, nuke 17, cattery, copycat nuke]
+    weak: [nuke]                       # ambiguous word: needs a context term below
+    context: [compositing, compositor, comp, vfx, foundry, roto, keying, deep compositing, cattery, nodes, gizmo, 3d tracking, camera tracking]
+    exclude: [nuclear, nukes, bomb, minecraft, warzone, valorant, "call of duty", cs2, csgo, fortnite, "rust game", tactical nuke]
+
+  - id: silhouette
+    name: Boris FX Silhouette
+    strong: [silhouette fx, boris fx silhouette, silhouette 2024, silhouette 2025, silhouette 2026]
+    weak: [silhouette]
+    context: [boris, roto, rotoscoping, paint, compositing, vfx, mask, matte, tracking]
+    exclude: [vector silhouette, silhouette cameo, cricut, "silhouette studio", svg cutting]
+
+  - id: mocha
+    name: Boris FX Mocha
+    strong: [mocha pro, boris fx mocha, mocha vr, mocha one, mocha ae, mocha 2024, mocha 2025, mocha 2026]
+    weak: [mocha]
+    context: [boris, planar, tracking, tracker, roto, rotoscoping, vfx, after effects, remove tool, stabilize]
+    exclude: [coffee, latte, mochajs, "mocha test", "mocha.js", javascript, "mocha chai"]
+
+  - id: comfyui
+    name: ComfyUI
+    strong: [comfyui, comfy ui, comfy-ui, comfy workflow, comfyui workflow, comfyui manager]
+    weak: [comfy]
+    context: [workflow, custom node, custom nodes, stable diffusion, flux, wan, "node graph", checkpoint, lora, ai video]
+
+# Global noise filter on titles
+exclude_title_terms: [reaction, giveaway, "course sale", "free download crack", cracked, "full movie"]
+
+# Video type labels, checked in this order against the title
+type_rules:
+  release: [release notes, what's new, whats new, new in, new features, new version, released, release, update, announcing, introducing, sneak peek, now available, launch]
+  webinar: [webinar, masterclass, live session, q&a, "ask me anything", livestream replay, "live stream replay"]
+  workflow: [workflow, custom node, custom nodes, pipeline, breakdown, case study, "behind the scenes", demo]
+  tutorial: [tutorial, how to, "how-to", beginner, beginners, learn, tips, tricks, guide, course, explained, masterclass basics]
+
+# ---- Official + creator YouTube channels ------------------------------------
+# Provide `channel_id` (starts with UC, 24 characters). If you only know the
+# @handle, run `python -m video_digest resolve-channels` (needs YOUTUBE_API_KEY)
+# and paste the IDs it prints. Channels without an ID are skipped with a warning.
+#   official: true     -> ranked above creator content
+#   trust_all: true    -> every video counts for the listed software (use only for
+#                         single-product channels). Otherwise the title/description
+#                         must still match the software's terms.
+channels:
+  - name: Foundry (official)
+    handle: "@FoundryTeam"            # verify with resolve-channels
+    channel_id: ""
+    official: true
+    software: [nuke]
+  - name: Boris FX (official)
+    handle: "@borisfx"
+    channel_id: ""
+    official: true
+    software: [silhouette, mocha]
+  - name: ComfyUI (official)
+    handle: "@comfyui"
+    channel_id: ""
+    official: true
+    trust_all: true
+    software: [comfyui]
+  # Add creators like this:
+  # - name: Some Creator
+  #   channel_id: UCxxxxxxxxxxxxxxxxxxxxxx
+  #   software: [nuke]
+
+# ---- Targeted searches (need YOUTUBE_API_KEY; each costs 100 API quota units) -
+searches:
+  - { query: "Foundry Nuke release new features", software: [nuke] }
+  - { query: "Nuke compositing tutorial workflow", software: [nuke] }
+  - { query: "NukeX CopyCat Cattery", software: [nuke] }
+  - { query: "Boris FX Silhouette new features tutorial", software: [silhouette] }
+  - { query: "Silhouette rotoscoping paint workflow", software: [silhouette] }
+  - { query: "Boris FX Mocha Pro new features", software: [mocha] }
+  - { query: "Mocha Pro tracking tutorial workflow", software: [mocha] }
+  - { query: "ComfyUI workflow tutorial", software: [comfyui] }
+  - { query: "ComfyUI custom nodes new release", software: [comfyui] }
+  - { query: "comfy ui video generation workflow", software: [comfyui] }
+
+# ---- Other platforms via RSS/Atom (optional) -----------------------------------
+feeds: []
+  # - name: Vendor Vimeo
+  #   url: https://vimeo.com/user12345/videos/rss
+  #   platform: Vimeo
+  #   official: true
+  #   software: [mocha]

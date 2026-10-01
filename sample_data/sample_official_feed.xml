@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <title>ComfyUI sample</title>
+  <entry>
+    <id>yt:video:Comfy000008</id>
+    <yt:videoId>Comfy000008</yt:videoId>
+    <title>ComfyUI v0.4 release: new nodes and faster video workflows</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=Comfy000008"/>
+    <author><name>ComfyUI</name></author>
+    <published>2026-10-01T16:00:00+00:00</published>
+    <media:group><media:description>Release notes for the latest ComfyUI version.</media:description></media:group>
+  </entry>
+  <entry>
+    <id>yt:video:Comfy000009</id>
+    <yt:videoId>Comfy000009</yt:videoId>
+    <title>Community call: roadmap Q&amp;A</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=Comfy000009"/>
+    <author><name>ComfyUI</name></author>
+    <published>2026-09-28T16:00:00+00:00</published>
+    <media:group><media:description></media:description></media:group>
+  </entry>
+</feed>
