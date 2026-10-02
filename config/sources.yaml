@@ -52,18 +52,18 @@ type_rules:
 #                         must still match the software's terms.
 channels:
   - name: Foundry (official)
-    handle: "@FoundryTeam"            # verify with resolve-channels
-    channel_id: ""
+    handle: "@FoundryTeam"            # verified via resolve-channels
+    channel_id: UCxn8WbrqCJl7G6i-yI_mFyg
     official: true
     software: [nuke]
   - name: Boris FX (official)
     handle: "@borisfx"
-    channel_id: ""
+    channel_id: UCAnNFKXehw8eIlDU0XN3VsA
     official: true
     software: [silhouette, mocha]
   - name: ComfyUI (official)
     handle: "@comfyui"
-    channel_id: ""
+    channel_id: UCaVhziQbXkTLiERYTak95Qw
     official: true
     trust_all: true
     software: [comfyui]
