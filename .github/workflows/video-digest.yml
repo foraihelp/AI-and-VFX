@@ -11,7 +11,7 @@ on:
         description: "send = email + remember videos | dry-run = print only | test-email = tiny test message"
         type: choice
         default: dry-run
-        options: [dry-run, send, test-email]
+        options: [dry-run, send, test-email, resolve-channels]
 
 # Needed only so the job can commit state/seen.json.
 permissions:
@@ -66,6 +66,7 @@ jobs:
           case "$MODE" in
             send)       python -m video_digest --send ;;
             test-email) python -m video_digest test-email ;;
+            resolve-channels) python -m video_digest resolve-channels ;;
             *)          python -m video_digest ;;
           esac
 
