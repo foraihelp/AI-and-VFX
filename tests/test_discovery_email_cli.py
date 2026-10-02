@@ -57,6 +57,8 @@ def test_discover_via_api_flags_live_and_hides_key():
 
     def fetch(url):
         calls.append(url)
+        if "/channels" in url:
+            return json.dumps({"items": [{"contentDetails": {"relatedPlaylists": {"uploads": "UUx"}}}]}).encode()
         if "/playlistItems" in url:
             return json.dumps({"items": [{"contentDetails": {"videoId": "ABCDEFGHIJK"}}]}).encode()
         return json.dumps({"items": [{"id": "ABCDEFGHIJK", "snippet": {
@@ -67,6 +69,16 @@ def test_discover_via_api_flags_live_and_hides_key():
     assert vids[0].is_live and vids[0].duration_seconds == 600
     assert any("SECRETKEY" in c for c in calls)            # sent to Google...
     assert "SECRETKEY" not in redact(calls[0])             # ...but never logged
+
+
+def test_channel_falls_back_to_rss_when_api_fails():
+    def fetch(url):
+        if "googleapis.com" in url:
+            raise HttpError("HTTP 404 for .../playlistItems?key=REDACTED", 404)
+        return ATOM
+    src = only_channels([{"name": "c", "channel_id": "UC" + "x" * 22, "software": ["nuke"]}])
+    vids, warns = discovery.discover(src, since=NOW - timedelta(days=5), api_key="K", fetch=fetch)
+    assert len(vids) == 1 and warns == []
 
 
 def test_request_retries_transient_then_succeeds():

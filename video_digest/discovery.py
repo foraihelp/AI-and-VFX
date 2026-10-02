@@ -76,7 +76,10 @@ class YouTubeAPI:
         return (items[0]["id"], items[0]["snippet"]["title"]) if items else None
 
     def channel_uploads(self, channel_id: str, limit: int = 15) -> list[str]:
-        playlist = "UU" + channel_id[2:]          # uploads playlist of a channel
+        info = self._get("channels", part="contentDetails", id=channel_id)
+        items = info.get("items") or []
+        playlist = (items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+                    if items else "UU" + channel_id[2:])
         data = self._get("playlistItems", part="contentDetails", playlistId=playlist, maxResults=limit)
         return [i["contentDetails"]["videoId"] for i in data.get("items", [])]
 
@@ -189,10 +192,14 @@ def discover(sources: Sources, *, since: datetime, api_key: str = "",
                                 f"(run `python -m video_digest resolve-channels`).")
                 continue
             official = bool(ch.get("official", False))
+            found = None
             if api:
-                items = api.details(api.channel_uploads(cid))
-                found = [video_from_api_item(i, official=official, source=name) for i in items]
-            else:
+                try:
+                    items = api.details(api.channel_uploads(cid))
+                    found = [video_from_api_item(i, official=official, source=name) for i in items]
+                except (HttpError, KeyError, ValueError, json.JSONDecodeError) as exc:
+                    log.warning("Channel '%s': API failed (%s); falling back to RSS.", name, redact(exc))
+            if found is None:
                 found = parse_feed(fetch(YT_FEED.format(cid)), platform="YouTube",
                                    official=official, source=name)
             add(found, ch)
