@@ -1,0 +1,68 @@
+{
+  "name": "ai-vfx-digest",
+  "productName": "AI VFX Digest",
+  "version": "1.0.0",
+  "description": "Desktop reader for new Nuke, Silhouette, Mocha and ComfyUI videos, with email delivery.",
+  "main": "./out/main/index.js",
+  "author": "foraihelp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "test": "vitest run",
+    "icons": "node scripts/build-icons.mjs",
+    "dist:win": "electron-vite build && electron-builder --win"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9",
+    "fast-xml-parser": "^4.5.0",
+    "js-yaml": "^4.1.0",
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@fontsource/newsreader": "^5.2.0",
+    "@fontsource/source-sans-3": "^5.2.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.7.5",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "electron": "^32.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "png2icons": "^2.0.1",
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.8"
+  },
+  "build": {
+    "appId": "com.foraihelp.aivfxdigest",
+    "productName": "AI VFX Digest",
+    "directories": { "output": "release" },
+    "files": ["out/**/*"],
+    "extraResources": [{ "from": "config/sources.yaml", "to": "sources.yaml" }],
+    "publish": { "provider": "github", "owner": "foraihelp", "repo": "AI-and-VFX" },
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "build/icon.ico",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "AI VFX Digest",
+      "runAfterFinish": true,
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico"
+    }
+  }
+}

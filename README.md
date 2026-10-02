@@ -134,3 +134,26 @@ State is a small JSON file committed to the repo by the workflow, which is simpl
 | Digest always empty | try `python -m video_digest -v`; widen `LOOKBACK_HOURS`; check matching terms |
 | Push of state rejected | see branch protection above |
 | Want a fresh start | delete `state/seen.json` |
+
+## Desktop app
+
+A Windows desktop reader for the same videos, with the same filtering and the same email layout.
+
+- Read the digest in a newspaper-style window: top story, sections per software, filters by software/type/time window.
+- **Email this digest...** previews and sends exactly the email the daily GitHub run sends.
+- Settings: YouTube key, email (SMTP or Resend), timezone. Keys and passwords are stored encrypted on your PC.
+- **Open sources.yaml** edits the channels, search terms and matching rules (your copy lives in `%APPDATA%/AI VFX Digest`).
+- Header shows the version and a **Check for updates** pill (updates come from GitHub Releases).
+
+Install: run `AI VFX Digest-Setup-<version>.exe` from the latest GitHub release.
+
+Build from source:
+
+```bash
+npm install
+npm run dev          # run in development
+npm test             # engine tests
+npm run dist:win     # build the installer into release/
+```
+
+The desktop app is independent of the daily GitHub Actions email: you can use either or both.
