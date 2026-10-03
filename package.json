@@ -1,7 +1,7 @@
 {
   "name": "ai-vfx-digest",
   "productName": "AI VFX Digest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Desktop reader for new Nuke, Silhouette, Mocha and ComfyUI videos, with email delivery.",
   "main": "./out/main/index.js",
   "author": "foraihelp",
