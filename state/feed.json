@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generated_at": "2026-10-03T10:09:58+00:00",
- "window_days": 30,
+ "generated_at": "2026-10-03T10:11:04+00:00",
+ "window_days": 90,
  "software": [
   {
    "id": "nuke",
@@ -22,6 +22,38 @@
  ],
  "videos": [
   {
+   "id": "yt:-RbvF6r_XUU",
+   "platform": "YouTube",
+   "title": "Nuke 17.1 — Everything New in 10 Minutes",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=-RbvF6r_XUU",
+   "published": "2026-08-20T15:03:27+00:00",
+   "description": "Nuke 17.1 introduces updates for advanced visual effects workflows, including animated Gaussian Splat support and volumetric relighting capabilities. The 3D viewer now supports Hydra 2.0, and includes updates to the UI including new quick-access toggles.\n\nAdditional features in Nuke 17.1 include:\n* Non-destructive USD roundtripping across the pipeline with updates to the 3D system\n* Expression-bas",
+   "official": true,
+   "kind": "release",
+   "software": [
+    "nuke"
+   ],
+   "score": 150
+  },
+  {
+   "id": "yt:T7Y5J_63ERk",
+   "platform": "YouTube",
+   "title": "Boring Silhouette tasks? Automate your VFX workflow with MCP.",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=T7Y5J_63ERk",
+   "published": "2026-08-14T19:07:10+00:00",
+   "description": "Stop wasting time. Automate repetitive tasks and create new tools with Silhouette's MCP server. Create one-shot scripts, batch processes, and even full modules with GUI.\n\nIn this professional workflow tutorial, we explore how to leverage Large Language Models (LLMs) to manipulate Silhouette directly through the Model Context Protocol (MCP). You'll learn how to move beyond simple one-off prompts to",
+   "official": true,
+   "kind": "workflow",
+   "software": [
+    "silhouette"
+   ],
+   "score": 115
+  },
+  {
    "id": "yt:o4TvsJtYhqU",
    "platform": "YouTube",
    "title": "How to integrate Silhouette Point Track ML Data into After Effects",
@@ -34,6 +66,22 @@
    "kind": "tutorial",
    "software": [
     "silhouette"
+   ],
+   "score": 110
+  },
+  {
+   "id": "yt:Fy6IrebcUiY",
+   "platform": "YouTube",
+   "title": "How to bring your SynthEyes Matchmove into Nuke's New USD-based 3D Environment",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=Fy6IrebcUiY",
+   "published": "2026-09-01T13:52:36+00:00",
+   "description": "In this second Part of the Label Insert Tutorial, Product Specialist Christoph Zapletal will show you how to prep your shot for Compositing and bring it over into Nuke's New USD-based 3D Environment.\n\nAlong the way you'll learn how to proof your matchmove for all the changes and challenges commercial productions might throw at you.\n\nThese will include securing your scene with Lock Points, establis",
+   "official": true,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
    ],
    "score": 110
   },
@@ -135,6 +183,246 @@
    "score": 100
   },
   {
+   "id": "yt:F5AapbMV5So",
+   "platform": "YouTube",
+   "title": "Inside Industrial Light & Magic’s VFX: How Netflix’s ‘The Dinosaurs’ was built with Katana and Nuke",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=F5AapbMV5So",
+   "published": "2026-09-02T13:00:38+00:00",
+   "description": "Go behind the scenes of Netflix's hit documentary series The Dinosaurs to see how Industrial Light & Magic (ILM) brought 170 million years of prehistoric life to the screen. Backed by extensive scientific research, the series — produced by Silverback Films (Our Planet, Life on Our Planet) and executive produced by Steven Spielberg — recreates a vast range of dinosaurs and environments across its f",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:NaCJiquNnYY",
+   "platform": "YouTube",
+   "title": "Hybrid VFX pipelines: Nuke + machine learning + AI (Hugo Guerra keynote)",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=NaCJiquNnYY",
+   "published": "2026-08-26T13:03:53+00:00",
+   "description": "In this FMX keynote, VFX Supervisor and Director Hugo Guerra @HugosDesk shares tips, tricks, and pipeline strategies for blending traditional compositing with machine learning and AI. This experimental, research-driven session showcases real tests using Nuke's 3D System, CopyCat, and Beeble AI. \n\nHugo walks through the new USD pipeline and the Nuke’s ScanlineRender node for improved motion blur an",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:va-XnjA_KQs",
+   "platform": "YouTube",
+   "title": "Animate 3D Text on a Path in After Effects",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=va-XnjA_KQs",
+   "published": "2026-08-20T13:56:28+00:00",
+   "description": "Learn step-by-step how to use Mocha Pro’s Camera Solver and Mask ML features to assist in adding 3D text on a path to a shot in After Effects.\n\nVisit BorisFX.com to learn more : https://borisfx.com/products/mocha-pro/\n\n// K E Y  P O I N T S //\n⦁  Quickly generate accurate 3D camera data and feature points using Mocha Pro's Camera Solve feature.\n⦁  Use Mocha Pro’s Mask ML feature to cut out foregro",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:rBgpC7vw-pU",
+   "platform": "YouTube",
+   "title": "Creating a Creepy, Japanese Horror Style with Sapphire",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=rBgpC7vw-pU",
+   "published": "2026-08-13T14:51:04+00:00",
+   "description": "A deep dive into building a Japanese‑horror look using Sapphire TextureRidges, Effect Builder, Continuum, and a stabilized tattoo replacement from Silhouette. \n\nThis is Part Two of a two-part series in a collaborative project in After Effects between Product Specialist Christoph Zapletal, doing VFX inside of the Silhouette Plugin, and Design Director John Dickinson who uses Sapphire and Continuum ",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "silhouette"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:rkC8z5RrlCE",
+   "platform": "YouTube",
+   "title": "Supercharge After Effects with Boris FX Silhouette",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=rkC8z5RrlCE",
+   "published": "2026-08-12T13:51:51+00:00",
+   "description": "Use Headtrack ML in Silhouette to seamlessly replace facial symbols and perfectly integrate digital makeup. This tutorial shows VFX artists advanced tracking and cleanup techniques.\n\nOur two-part series is a collaborative project between product specialist Christoph Zapletal, tackling VFX inside the plugin version of Silhouette, and design director John Dickinson, who will use Sapphire to create a",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "silhouette"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:Q8h532tIhQE",
+   "platform": "YouTube",
+   "title": "Mocha Pro Inside Track: Quick Stabilize for Smart Users",
+   "channel": "Boris FX Learn",
+   "channel_id": "UCQaf9ihgW8W7RwjiNjNcAaQ",
+   "url": "https://www.youtube.com/watch?v=Q8h532tIhQE",
+   "published": "2026-08-06T10:20:45+00:00",
+   "description": "Quickly stabilize your viewer for precise rotoscoping and tracking checks in Boris FX Mocha Pro.\n\nDiscover Boris FX Mocha Pro's Quick Stabilize view controls. This tool locks your viewer to tracking data. It ensures your tracked object always stays in view.\n\nThis process significantly speeds up roto workflows. You no longer pan or chase objects. It also provides an easy way to verify track accurac",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:LdFuPA3EC1Q",
+   "platform": "YouTube",
+   "title": "Stop Common Mocha Pro Long Shot Tracking Errors",
+   "channel": "Boris FX Learn",
+   "channel_id": "UCQaf9ihgW8W7RwjiNjNcAaQ",
+   "url": "https://www.youtube.com/watch?v=LdFuPA3EC1Q",
+   "published": "2026-08-06T10:16:39+00:00",
+   "description": "Fix Mocha Pro long shot tracking errors with Unlink to Track for fast, stable results. This tutorial helps intermediate VFX professionals. It addresses common issues with long, difficult shots.\n\nLearn to track in the correct direction. Track into the camera view, not towards you. This avoids the surface tool moving out of the camera plane.\n\nThe core method uses the \"unlink to track option\" in Laye",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:tYtD0KsDFrI",
+   "platform": "YouTube",
+   "title": "Mocha Vegas QuickStart - Complete Walkthrough",
+   "channel": "Boris FX Learn",
+   "channel_id": "UCQaf9ihgW8W7RwjiNjNcAaQ",
+   "url": "https://www.youtube.com/watch?v=tYtD0KsDFrI",
+   "published": "2026-08-05T21:54:53+00:00",
+   "description": "Get perfect screen replacements, fixing occlusions using Boris FX Mocha Vegas for professional results. No more tedious point tracking.\n\nElizabeth Postol guides you through mastering Mocha Vegas inside Boris FX Vegas Pro. Learn the essential tools in this quick starter tutorial.\n\nMocha Vegas simplifies complex screen challenges. Easily handle finger occlusion and screen reflections.\n\nMaster key tr",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:2DTw3VO-sEs",
+   "platform": "YouTube",
+   "title": "04 Lens Flare Tracking with Mocha",
+   "channel": "Boris FX Learn",
+   "channel_id": "UCQaf9ihgW8W7RwjiNjNcAaQ",
+   "url": "https://www.youtube.com/watch?v=2DTw3VO-sEs",
+   "published": "2026-08-05T21:39:52+00:00",
+   "description": "In this exercise we take a much closer look at just how to create custom lens flares, and how to track elements in the scene with Mocha so the flare follows the camera movement. \n\nWe start by checking out various lens flare presets. Then we jump into the Flare Designer. \nTo create a more clean looking scene, we discuss how to use Warp Stabilizer VFX to stabilize the scene before we add our flares.",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:6ec6B6UAtWM",
+   "platform": "YouTube",
+   "title": "4x faster rotoscoping in Nuke with AI-powered SmartRoto | Foundry",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=6ec6B6UAtWM",
+   "published": "2026-07-16T16:41:26+00:00",
+   "description": "Tired of the endless frame-by-frame grind? Meet SmartRoto, Foundry's AI-powered roto assistant for Nuke that dramatically speeds up your workflow without taking away your control.\n\nIn this tutorial, we walk through the complete AI-powered workflow to help you cut down on tedious micro-changes. We will start by installing the plugin alongside the Foundry Licensing Utility app. Next, we cover breaki",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:M_92VgNgg88",
+   "platform": "YouTube",
+   "title": "Part 7 of 7: Capture all on–set metadata with the Vault in Nuke Stage | Nuke Stage | Foundry",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=M_92VgNgg88",
+   "published": "2026-07-16T09:29:07+00:00",
+   "description": "To wrap up the series, Courtney Pryce, Creative Director at XIVFX, explains how the Vault in Nuke Stage is designed to record and preserve metadata from virtual production shoots using two primary methods: snapshots and take records.\n\n00:00 - Introduction\n00:03 - The Vault Feature Overview\n00:24 - The Sequence Workspace (Vault Tab)\n00:51 - Vault Preferences & Settings\n01:12 - Capturing Snapshots\n0",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:0daDenjsHHI",
+   "platform": "YouTube",
+   "title": "Part 6 of 7: Working with USD between Nuke and Nuke Stage | Nuke Stage | Foundry",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=0daDenjsHHI",
+   "published": "2026-07-16T09:29:04+00:00",
+   "description": "Next up, Courtney Pryce, Creative Director at XIVFX, outlines the integration between Nuke and Nuke Stage, highlighting how the use of USD as an interchangeable scene format enables efficient virtual production workflows.\n\n00:00 - Introduction\n00:04 - USD Workflows & 2.5D Environments\n00:30 - Example: Nuke USD Scene to Nuke Stage\n00:52 - Adjusting the Imported 2.5D Scene\n01:09 - Chroma Keys & Nois",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:wUxOKR0tDV4",
+   "platform": "YouTube",
+   "title": "Part 5 of 7: Custom setups in Nuke Stage | Nuke Stage | Foundry",
+   "channel": "Foundry",
+   "channel_id": "UCxn8WbrqCJl7G6i-yI_mFyg",
+   "url": "https://www.youtube.com/watch?v=wUxOKR0tDV4",
+   "published": "2026-07-16T09:29:01+00:00",
+   "description": "In this video, Courtney Pryce, Creative Director at XIVFX, covers custom setups in Nuke Stage, specifically focusing on importing layouts, using switches for camera angles, and animating values via the sequencer.\n\n00:00 - Introduction\n00:17 - Opening a Custom Stage Layout\n00:38 - 3-Camera Setup & Blending\n01:09 - 5-Display Setup (Background & Lighting)\n01:22 - Using Switches for Camera Angles\n01:3",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:BhQNRJBZa_o",
+   "platform": "YouTube",
+   "title": "FOUNDRY JUST RELEASED SMARTROTO FOR NUKE | FULL TUTORIAL & FIRST LOOK | VFX VIBE",
+   "channel": "VFX VIBE",
+   "channel_id": "UCoViRkhYrtfuaya-yqvjICQ",
+   "url": "https://www.youtube.com/watch?v=BhQNRJBZa_o",
+   "published": "2026-07-25T12:30:08+00:00",
+   "description": "#nuke #foundry #vfxvibe @FoundryTeam \nFOUNDRY JUST RELEASED SMARTROTO FOR NUKE | FULL TUTORIAL & FIRST LOOK | VFX VIBE\n\nAsset Link (Footage and Nuke Script only):- https://vfxvibe.com/product/smart-roto-for-nuke/\n\nFoundry has officially introduced SmartRoto for Nuke! In this video, I'll give you a complete first look at this powerful new AI-assisted rotoscoping tool and show you how to use it insi",
+   "official": false,
+   "kind": "release",
+   "software": [
+    "nuke"
+   ],
+   "score": 50
+  },
+  {
+   "id": "yt:bopjWSv6VPA",
+   "platform": "YouTube",
+   "title": "Mari & Nuke Beta Now Available For Free! (Limited Time)",
+   "channel": "askNK",
+   "channel_id": "UCHx1jeKRMi_wDAwvvhaIDYA",
+   "url": "https://www.youtube.com/watch?v=bopjWSv6VPA",
+   "published": "2026-07-09T14:00:15+00:00",
+   "description": "The Folks at Foundry have released Mari 8.0 and Nuke 17.1in open beta and are offering them to artists for free.\n\n🔗Get Mari 8 Beta: https://www.foundry.com/mari-closed-beta-801\n🔗 Get Nuke 17.1 Beta: https://www.foundry.com/nuke-beta-171\n✨ *Get Premium Blender Addons* : https://superhivemarket.com/?ref=110\n🔗 *Find Hidden Treasures Here* : https://humblebundleinc.sjv.io/kOyQMx\n👨‍👩‍👧‍👦 *Get Character",
+   "official": false,
+   "kind": "release",
+   "software": [
+    "nuke"
+   ],
+   "score": 50
+  },
+  {
    "id": "yt:UDq7gXyNrP8",
    "platform": "YouTube",
    "title": "Blender Production Pipeline MasterClass EP11 - composite in nuke",
@@ -215,22 +503,6 @@
    "score": 15
   },
   {
-   "id": "yt:UpNNiv7Pd3M",
-   "platform": "YouTube",
-   "title": "MiniMax H3 настройка workflow OLD - Motion Context полторы минуты видео за одну генерацию",
-   "channel": "Творчество Comfy Ui",
-   "channel_id": "UCLkfFrqM5MKv3aHroJQahvA",
-   "url": "https://www.youtube.com/watch?v=UpNNiv7Pd3M",
-   "published": "2026-10-02T13:10:04+00:00",
-   "description": "MiniMax H3 Motion Context Advanced — как работает и как настроить\n\nВ этом видео разбираем, как запустить MiniMax H3 Ref2VA + Motion Context Advanced в ComfyUI и получать продолжения видео с сохранением персонажа, движения, камеры и аудио.\n\nМодель работает через референсы персонажа + Motion Context. Первый клип создаётся на основе изображений персонажа и промпта, а следующие клипы используют предыд",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
    "id": "yt:Nb_kgQ1lyVE",
    "platform": "YouTube",
    "title": "RunPod + ComfyUI for AI Video: Our Codex and MCP Workflow",
@@ -271,22 +543,6 @@
    "url": "https://www.youtube.com/watch?v=PE5DwjGMyfQ",
    "published": "2026-09-30T03:34:53+00:00",
    "description": "👇 DOWNLOAD THE FREE COMFYUI WORKFLOW: https://drive.google.com/file/d/1jgsCYp_wSuAlTJbzHXViLMgQepwa9yxE/view?usp=drive_link\n\nReplace faces, outfits, and objects in videos with this free 3-step MiniMax H3 ComfyUI workflow, demonstrated on an NVIDIA RTX 5060 laptop GPU with 8GB VRAM. Learn video inpainting with reference images, SAM 3.1 object tracking, and a structured prompt that explains exactly ",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
-   "id": "yt:vQY29bcW-qI",
-   "platform": "YouTube",
-   "title": "Comfy Everywhere — Plug Your Workflow as a Node into Any DCC",
-   "channel": "iNodes",
-   "channel_id": "UCQVitBn6foFD4sxZrtEPcxQ",
-   "url": "https://www.youtube.com/watch?v=vQY29bcW-qI",
-   "published": "2026-09-29T09:11:43+00:00",
-   "description": "Create a Custom iNode from ComfyUI and use it inside your creative software.\n\nThis tutorial shows the complete process for turning a ComfyUI workflow into a custom iNodes node that can then be accessed from supported creative applications.\n\nSteps covered in the video:\n\n1. Go to Build an App in ComfyUI\n2. Select the workflow Inputs\n3. Select the workflow Outputs\n4. Export the App.json file\n5. Expor",
    "official": false,
    "kind": "workflow",
    "software": [
@@ -339,6 +595,86 @@
    "kind": "workflow",
    "software": [
     "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:iBw35Sl3byk",
+   "platform": "YouTube",
+   "title": "Bài 7: Cài đặt Custom nodes COMFYUI",
+   "channel": "Anthony Ha",
+   "channel_id": "UCG9JznXuQ2bgtJOW_Hyyx9g",
+   "url": "https://www.youtube.com/watch?v=iBw35Sl3byk",
+   "published": "2026-09-12T17:56:33+00:00",
+   "description": "Bài 7 hướng dẫn cách cài đặt Custom Nodes vào COMFYUI.\n\nCác bạn thân mến. \n\nTôi làm video không để kiếm tiền mà để chia sẻ những gì mình biết đến những ai quan tâm. Vì thế các bạn giới thiệu loạt videos này đến các bạn nào cần học. Đây là cách để các bạn đỡ tốn tiền mua các A.I. khác mà mình tự làm dùng COMFYUI không giới hạn.\n\nCó điều gì không biết trong bài tôi nói, cứ để comments ở đây rồi tôi ",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:CaVj5QET3kw",
+   "platform": "YouTube",
+   "title": "Maya Render Layers: The Professional VFX Workflow You Need to Know",
+   "channel": "Creative Catalyst",
+   "channel_id": "UCnVjqSrmw8RAWOolGN_6gIw",
+   "url": "https://www.youtube.com/watch?v=CaVj5QET3kw",
+   "published": "2026-08-29T23:00:19+00:00",
+   "description": "🎓 Learn Production-Ready VFX, CGI & 3D Animation with Professional Tutorials.\n\nWelcome to Creative Catalyst!\n\nThis channel is dedicated to high-quality tutorials on Autodesk Maya, Houdini FX, Foundry Nuke, Substance 3D Painter, ZBrush, Arnold Renderer, V-Ray, USD Workflow, Modeling, UV Mapping, Texturing, Look Development, Lighting, Animation, Rendering, Compositing, FX, and the complete VFX Pipel",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "nuke"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:j_NbGjmes9w",
+   "platform": "YouTube",
+   "title": "I Built 15 AI-Powered Nodes for Nuke | Install + Real Workflow",
+   "channel": "Max Sarlija",
+   "channel_id": "UCGsxOTMUOaGsDvp11As0b6w",
+   "url": "https://www.youtube.com/watch?v=j_NbGjmes9w",
+   "published": "2026-08-27T16:10:01+00:00",
+   "description": "15 generative AI nodes that live inside your Nuke script. Not in another tab, not in another app, not in a browser: in your Node Graph, connected like any other node.\n\nIn this video I walk through AI VFX for Nuke end to end: install, activation, how the nodes work under the hood, and three real workflows from start to finish.\n\n⬇️ FREE DOWNLOAD (v1.6.2)\n\nhttps://maxsarlija.com/ai-vfx/\n\nNuke 13 → 17",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "nuke"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:oFuWCJmW5qE",
+   "platform": "YouTube",
+   "title": "ComfyUI SAM 3 Video Matting Workflow for VFX | Fast & Accurate",
+   "channel": "VFX SHOWDOWN",
+   "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
+   "url": "https://www.youtube.com/watch?v=oFuWCJmW5qE",
+   "published": "2026-08-24T06:30:06+00:00",
+   "description": "Hello everyone welcome back to another ComfyUI Tutorial and i'm going to show you the SAM3 Workflow which i made for video matting as well as single frame matte generation i hope you like this and make sure to download the workflow file link below.\nMore ComfyUI Tutorial Coming soon for VFX!\nThank you guys for your Amazing Support.\n\n#compositing #fx #nuke #comfyui #comfyuitutorial #machinelearning ",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:iFnJcdV-Fdw",
+   "platform": "YouTube",
+   "title": "This AI Roto Tool Changed My Entire VFX Workflow | ONYX AI Matte",
+   "channel": "vfx world",
+   "channel_id": "UCJonHhxNiYZbkCRiw_RBVtw",
+   "url": "https://www.youtube.com/watch?v=iFnJcdV-Fdw",
+   "published": "2026-07-11T13:32:14+00:00",
+   "description": "This AI Roto Tool Changed My Entire VFX Workflow!\n\nIn this video, I test ONYX AI Matte, a powerful new AI Roto Tool designed to speed up rotoscoping for VFX artists. I walk through the complete workflow inside Nuke, show how to generate AI mattes, compare the original footage with the AI output, and share my honest opinion on whether it's ready for professional production.\n\nIf you're a compositor,",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "nuke"
    ],
    "score": 15
   },
@@ -423,6 +759,22 @@
    "score": 10
   },
   {
+   "id": "yt:vLdE4dBohUM",
+   "platform": "YouTube",
+   "title": "Qwen-Image 2.1 in Comfy UI Explained – Native 2K, Transparent PNGs & Image-to-Image",
+   "channel": "AI Ninja",
+   "channel_id": "UC8ioMZEYT8mdwyjz9DEy35Q",
+   "url": "https://www.youtube.com/watch?v=vLdE4dBohUM",
+   "published": "2026-09-29T10:55:52+00:00",
+   "description": "Qwen-Image 2.1 is here, and in this video, I take a detailed look at Qwen-Image 2.1 in Comfy UI, including its architecture, image generation, editing capabilities, native RGBA support, multi-reference inputs, native 2K generation, and how KV caching helps improve inference efficiency.\n\n✨ What I cover in this video: \n• Qwen-Image-2.1 overview  \n• Text-to-Image generation  \n• Image-to-Image editing",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
    "id": "yt:iiHFp57FEEo",
    "platform": "YouTube",
    "title": "Wan 2.2 Open Source AI Is INSANE! 🔥 Complete ComfyUI Tutorial | AI Video Generation",
@@ -435,6 +787,22 @@
    "kind": "tutorial",
    "software": [
     "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:1kWI9CIvHNQ",
+   "platform": "YouTube",
+   "title": "Frequency Separation: Beauty & Cleanup in Nuke (Marker Removal) - Tutorial",
+   "channel": "Uncanny Danny VFX",
+   "channel_id": "UCS2L2hvdkw427bkMaAaeoUg",
+   "url": "https://www.youtube.com/watch?v=1kWI9CIvHNQ",
+   "published": "2026-09-28T15:14:25+00:00",
+   "description": "#VFX #Compositing #Prep #Beauty\n\nOutlining the powerful frequency separation technique used for anything from clean-up, removals to beauty work and touch ups. Indispensable method for any prep work.\n\nAny questions please get in touch:\nDanny\nCompositor & VFX Supervisor\nuncannydanny.vfx@gmail.com",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
    ],
    "score": 10
   },
@@ -519,6 +887,86 @@
    "score": 10
   },
   {
+   "id": "yt:ERgCfZZDce8",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 07 @GraphicsInspire",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=ERgCfZZDce8",
+   "published": "2026-09-08T12:00:19+00:00",
+   "description": "nuke 3d camera tracking,3d camera tracking nuke,nuke camera tracking,nuke cameratracker,nuke camera tracker,nuke 3d tracking,nuke tracking,nuke tutorial,nuke vfx,nuke vfx tutorial,nuke compositing,camera tracking,3d tracking,3d tracking tutorial,camera tracker,nuke camera solve,camera solve nuke,nuke matchmoving,matchmoving,matchmove,vfx tracking,vfx camera tracking,vfx tutorial,foundry nuke,nukex",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:ljXZJv39Y5Y",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 06",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=ljXZJv39Y5Y",
+   "published": "2026-09-07T12:00:34+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:cAZzqp-Y6QI",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 05",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=cAZzqp-Y6QI",
+   "published": "2026-09-06T12:00:10+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:T3JVN_cnXLY",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 04",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=T3JVN_cnXLY",
+   "published": "2026-09-05T13:15:17+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:TvhqvGIuFcE",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 03",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=TvhqvGIuFcE",
+   "published": "2026-09-04T13:15:22+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
    "id": "yt:g5lO2pYeKqQ",
    "platform": "YouTube",
    "title": "3D Camera Tracking in NUKE 🔥 | Complete CameraTracker Tutorial for VFX",
@@ -531,6 +979,198 @@
    "kind": "tutorial",
    "software": [
     "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:Nbk9Grqbhl0",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 02",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=Nbk9Grqbhl0",
+   "published": "2026-09-03T06:45:15+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:8upM_QvD_JU",
+   "platform": "YouTube",
+   "title": "Nuke Camera tracking Tutorial 3D PART 01",
+   "channel": "GraphicsInspire",
+   "channel_id": "UCMLF17ZTu-clUXEmOu06LFQ",
+   "url": "https://www.youtube.com/watch?v=8upM_QvD_JU",
+   "published": "2026-09-02T17:12:36+00:00",
+   "description": "Learn 3D Camera Tracking in NUKE! 🎬🔥\n\nSee how NUKE CameraTracker analyzes footage, tracks points and creates a solved 3D camera for professional VFX compositing.\n\nFull tutorial covers 3D Camera Tracking, CameraTracker, Camera Solve, 3D Tracking, Matchmoving and VFX compositing in NUKE.\n\n🎬 Watch the complete tutorial on my channel.\n\n#Nuke #3DCameraTracking #VFX #CameraTracking #shorts",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:GiwVe7ySrfA",
+   "platform": "YouTube",
+   "title": "Mocha Pro Software Download & Install | Complete Step-by-Step Guide | Nest Creative School of Arts",
+   "channel": "Nest School Of Creative Arts",
+   "channel_id": "UC1-mfPb8vEyPeJf8T0l7vKA",
+   "url": "https://www.youtube.com/watch?v=GiwVe7ySrfA",
+   "published": "2026-08-27T10:51:06+00:00",
+   "description": "Learn how to download and install Mocha Pro software step-by-step with this complete and easy-to-follow tutorial.\n\nIn this video, we will guide you through the Mocha Pro download and installation process, including how to get the software, install it correctly, and get started with this powerful planar tracking and visual effects software.\n\n🎬 In This Video:\n\nMocha Pro Software Overview\nHow to Down",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:uQOcAjijuvs",
+   "platform": "YouTube",
+   "title": "How to install Nuke for node-based compositing workflows - Detailed Guide",
+   "channel": "HowMatrix",
+   "channel_id": "UC1_c2x7KYTCC3Wr3GtrFSDQ",
+   "url": "https://www.youtube.com/watch?v=uQOcAjijuvs",
+   "published": "2026-08-23T11:24:30+00:00",
+   "description": "In this comprehensive tutorial, we’ll walk you through the step-by-step process of installing Nuke for node-based compositing workflows. Whether you're a beginner or a seasoned professional, this detailed guide will help you set up Nuke on your system with ease. Learn about system requirements, installation tips, and best practices to get started with creating stunning visual effects and motion gr",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:4jAD2iWeuIw",
+   "platform": "YouTube",
+   "title": "NUKE BEGINNER SERIES | TRACKING MARKER REMOVAL BASICS | EP 17 | VFX VIBE",
+   "channel": "VFX VIBE",
+   "channel_id": "UCoViRkhYrtfuaya-yqvjICQ",
+   "url": "https://www.youtube.com/watch?v=4jAD2iWeuIw",
+   "published": "2026-08-23T04:30:29+00:00",
+   "description": "#nuke #nukecompositing #compositing \nNUKE BEGINNER SERIES | TRACKING MARKER REMOVAL BASICS | EP 17 | VFX VIBE\nAsset Download  Link:- https://vfxvibe.com/product/how-to-remove-tracking-markers-in-nuke/\n\nWelcome to Episode 17 of the Nuke Beginner Series.\n\nIn this episode, we explore a very common task in professional VFX workflows: removing tracking markers from a shot.\n\nTracking markers are essenti",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:7akvjKXQhfo",
+   "platform": "YouTube",
+   "title": "Download Сrаck Mocha Pro Plugin For After Effects & Premiere Pro | Mocha Pro - How to install",
+   "channel": "Luis Castillo - La Cascada del Dinero",
+   "channel_id": "UCtKIdNuBqxOFRNFgCnWrLkw",
+   "url": "https://www.youtube.com/watch?v=7akvjKXQhfo",
+   "published": "2026-08-20T19:20:19+00:00",
+   "description": "Download Сrаck Mocha Pro Plugin For After Effects & Premiere Pro | Mocha Pro - How to install\n\nDownload link pinned in comments!\nDownload link pinned in comments!\nDownload link pinned in comments!",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:Z076XaXHDnw",
+   "platform": "YouTube",
+   "title": "Mocha Pro Install || After Effects Tutorial | Iamdhruveditor #mocha #aftereffects #mochapro",
+   "channel": "iamdhruveditor",
+   "channel_id": "UCBMaHeDl_6-g7Ke_7X2UzOw",
+   "url": "https://www.youtube.com/watch?v=Z076XaXHDnw",
+   "published": "2026-08-19T11:35:34+00:00",
+   "description": "Mocha Pro Install || After Effects Tutorial | Iamdhruveditor #mocha #aftereffects #mochapro \n\nIn this video, I explain how to install Mocha Pro for FREE in Adobe After Effects step by step.\nThis is a Telugu tutorial explained in English words, easy to understand for beginners and editors.\n\ntelegram- https://t.me/dhruvaepchat/1306\ninstagram - https://www.instagram.com/iamdhruv_editor/\n\n\nMocha Pro i",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:GMy5o4EpzKM",
+   "platform": "YouTube",
+   "title": "Learn Silhouette in 20 Minutes! Rotoscoping Basics for Beginners",
+   "channel": "cg artist all rounder",
+   "channel_id": "UCwFpKD29nN2CTvcF0uN5NRA",
+   "url": "https://www.youtube.com/watch?v=GMy5o4EpzKM",
+   "published": "2026-08-19T08:45:00+00:00",
+   "description": "Learn the fastest way to get started with Boris FX Silhouette for visual effects rotoscoping! 🚀\r\n\r\nIn this beginner-friendly breakdown, we cover the essential tools, workspace navigation, and core shape techniques you need to create clean, production-ready mattes quickly.\r\n\r\n🔥 Key Topics Covered:\r\n✅ Interface Layout & Navigation\r\n✅ B-Spline & Bézier Roto Tools\r\n✅ Object List & Layer Organization\r\n",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "silhouette"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:uafjbeP5hFc",
+   "platform": "YouTube",
+   "title": "How to Add Realistic Dust in Nuke | Production-Level Compositing #nuke  #compositing #nuke #vfx",
+   "channel": "Cvfx_creative_space",
+   "channel_id": "UCkXrHqWQykZY_ppPB5YEPIQ",
+   "url": "https://www.youtube.com/watch?v=uafjbeP5hFc",
+   "published": "2026-08-15T09:33:47+00:00",
+   "description": "How to Add Realistic Dust in Nuke | Production-Level Compositing#nuke  #compositing g#nuke #vfx \n\nLearn how to add realistic dust to footage in Nuke using a production-level compositing workflow.\n\n⚡ FAST TRACK first — quickly understand the complete dust compositing process.\n\n🎬 FULL TUTORIAL next — follow the entire process step by step and see how the dust element is integrated into the shot real",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:30msXmX4RdY",
+   "platform": "YouTube",
+   "title": "Mocha Pro Animated Glowing Lines Effect for Edits (FASTER & BETTER) I After Effects Tutorial",
+   "channel": "G5 Edits",
+   "channel_id": "UCXHIG6Z8gOOqhv38k-33Uiw",
+   "url": "https://www.youtube.com/watch?v=30msXmX4RdY",
+   "published": "2026-07-27T14:00:30+00:00",
+   "description": "✅ Software used - After Effects 2023\n➡️ Masking Method - Mocha Pro Animated Glowing Lines Effect\n🎬 Movie Clip: Obsession 2026\n\n❓How do you start Editing in less than 7minutes?\nCheck it out here: https://www.youtube.com/watch?v=GmYLfSPcV4I&list=PLz4D5YmHlwCP7J108y07hnJMRl00XjOpk&index=1\n\n💾 Mocha Pro 2025 [pasw: 123]\nhttps://drive.google.com/file/d/1eR8s3Lme5Z6BJbeWANdqbUx0TiYyS2Je/view?usp=sharing\n",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:vC0QE0QmlMs",
+   "platform": "YouTube",
+   "title": "How to set up the roto of Silhouette VFX #rotoscoping #vfx #borisfx #compositor #prepartist",
+   "channel": "Compmin101",
+   "channel_id": "UCTl9AypmQHKCmraLBOIBz8g",
+   "url": "https://www.youtube.com/watch?v=vC0QE0QmlMs",
+   "published": "2026-07-11T17:20:17+00:00",
+   "description": "",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "silhouette"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:kMHDq9C0vpg",
+   "platform": "YouTube",
+   "title": "Stabilize Shaky Face Footage with Mocha Pro | After Effects Tutorial",
+   "channel": "Devaa",
+   "channel_id": "UC7TscRReO5SkuRgi2i6KQyA",
+   "url": "https://www.youtube.com/watch?v=kMHDq9C0vpg",
+   "published": "2026-07-08T06:03:43+00:00",
+   "description": "🎬 Learn how to stabilize a face in Adobe After Effects using Mocha Pro!\n\nIn this tutorial, I'll show you a simple and professional workflow to stabilize face movement using Mocha Pro inside After Effects. Whether you're editing cinematic videos, VFX shots, or motion graphics, this technique helps you achieve smooth and accurate face stabilization.\n\n📌 What You'll Learn\n\n✅ Import footage into After ",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
    ],
    "score": 10
   },
@@ -842,22 +1482,6 @@
    "score": 0
   },
   {
-   "id": "yt:uO9_d5CCDzY",
-   "platform": "YouTube",
-   "title": "Aesthetic & Elegance: AI Fantasy Beauty Showcase (ComfyUI",
-   "channel": "GirlsAI",
-   "channel_id": "UC1s4_Mc9ual-FFpaUKKBixg",
-   "url": "https://www.youtube.com/watch?v=uO9_d5CCDzY",
-   "published": "2026-09-29T14:50:37+00:00",
-   "description": "Step into a world where beauty, fantasy, and artificial intelligence meet! ✨💄🌸Welcome to Aesthetic & Elegance, a special showcase featuring a collection of high-quality AI-generated video clips. Each clip highlights graceful characters, floral details, and dreamy visual styles brought to life through custom ComfyUI video workflows.⚙️ Creation & Workflow:AI Video Generation: ComfyUIVideo Editing & ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:qhJk0-BWlLw",
    "platform": "YouTube",
    "title": "LTX 2.5: Native ACES Color Management & HDR | ComfyUI + Nuke",
@@ -891,50 +1515,18 @@
    "score": 0
   },
   {
-   "id": "yt:Lt-6zoI5gJI",
+   "id": "yt:3cmNqHfVrls",
    "platform": "YouTube",
    "title": "I Tried LTX 2.5 for VFX… Here’s What Happened",
    "channel": "VFX SHOWDOWN",
    "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
-   "url": "https://www.youtube.com/watch?v=Lt-6zoI5gJI",
-   "published": "2026-09-27T06:30:09+00:00",
+   "url": "https://www.youtube.com/watch?v=3cmNqHfVrls",
+   "published": "2026-09-27T06:30:00+00:00",
    "description": "In this tutorial, I’ll show you how to use LTX 2.5 in ComfyUI to create fire and smoke VFX elements and bring them into Nuke for compositing.\n\nThe Fire & Smoke LTX 2.5 workflow used in this tutorial was shared by a creator on Hugging Face. I’ll show you how I use this workflow to generate VFX elements and how I approach integrating those elements into a Nuke compositing workflow.\n\n#compositing #fx",
    "official": false,
    "kind": "other",
    "software": [
     "nuke",
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:RXAJH_s6-jk",
-   "platform": "YouTube",
-   "title": "MiniMax H3で長尺ビデオを作成するためのカスタムノードを試す【ComfyUI】",
-   "channel": "Signal Flag \"Z\"",
-   "channel_id": "UCG60g1o8w9yMOv_YzeEp5gg",
-   "url": "https://www.youtube.com/watch?v=RXAJH_s6-jk",
-   "published": "2026-09-25T10:00:34+00:00",
-   "description": "MiniMax H3は一度の生成で最長15秒のビデオが作れます。15秒以下のクリップをつなげれば15秒以上にできますが、生成毎に背景が違ったり、服装が違ったり、人の配置が入れ替わったりしてしまいます。これを避けるため前のクリップの最後の画像を次のクリップの最初のクリップの画像として使ったりします。\n\nこれをAIにとって劣化の少ない潜在データで行うカスタムノードがあります。\nNikoDemon80 / ComfyUI-H3-Motion-Context\n  https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context\n\nこのカスタムノードを元にしていろいろなカスタムノードが作られました。クリップのプロンプトをストーリーボードっぽいUIで作っていけるカスタムノードを紹介します。\ntritant / ComfyUI_MiniMax_H3_Ext",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:8_NXmzcfE8M",
-   "platform": "YouTube",
-   "title": "MiniMax H3 Look Sheets v1.1: Multi-Outfit Datasheets in ComfyUI",
-   "channel": "True Visuals",
-   "channel_id": "UC3WYcj-OmKAS5rVy-AMAStQ",
-   "url": "https://www.youtube.com/watch?v=8_NXmzcfE8M",
-   "published": "2026-09-24T23:25:29+00:00",
-   "description": "Generate a full look sheet and datasheet of any person in any outfit, from every angle, with MiniMax H3 in ComfyUI. H3 Look Sheets v1.1 is out, and it now supports multiple outfit reference photos, automatic gender detection, and a new Image Aggregator node.\n\nIn this video I go through what's new in v1.1 and build a complete look sheet workflow from scratch: reference photos in, prompt built shot ",
-   "official": false,
-   "kind": "other",
-   "software": [
     "comfyui"
    ],
    "score": 0
@@ -1129,6 +1721,297 @@
    "kind": "other",
    "software": [
     "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:BkqBgVdFqPQ",
+   "platform": "YouTube",
+   "title": "Stop Using RotoBrush! Mocha Pro is Way Better",
+   "channel": "l4XY",
+   "channel_id": "UCBUw_VLgKJE09EVoFTpGEDQ",
+   "url": "https://www.youtube.com/watch?v=BkqBgVdFqPQ",
+   "published": "2026-09-02T04:31:18+00:00",
+   "description": "Still struggling with After Effects RotoBrush missing edges, failing on fast motion, or lagging your system? In this tutorial, we break down why professional VFX artists ditch default RotoBrush and use Mocha Pro for high-end rotoscoping and planar tracking.\n\nLearn how Mocha Pro handles complex motion, saves hours of manual frame-by-frame masking, and gives you rock-solid control over your cutouts.",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:SJ_2uqE9dKM",
+   "platform": "YouTube",
+   "title": "Built an AI Assistant Inside Nuke for VFX Artists",
+   "channel": "Piyush Jinjala",
+   "channel_id": "UCyZPkXxlfjV-HCYTYsk_kKA",
+   "url": "https://www.youtube.com/watch?v=SJ_2uqE9dKM",
+   "published": "2026-08-31T01:16:11+00:00",
+   "description": "AVL AI Studio is a custom AI panel inside Foundry Nuke—built to work like a senior compositor, QC supervisor, pipeline TD, and mentor beside the artist.\n\nIn this screen recording, I show how AVL AI Studio connects Google Gemini, ChatGPT, and Claude directly inside a compositing workflow. It can analyze the current Nuke node graph, explain the comp, generate Nuke Python for keying, grading, merges,",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:Rs_O-CH4TXw",
+   "platform": "YouTube",
+   "title": "Surendra Navale | VFX Compositor Showreel 2026 | Nuke, Silhouette & Mocha Pro",
+   "channel": "surendra navale",
+   "channel_id": "UC7g5WAbYya-pG-CMciYU1VQ",
+   "url": "https://www.youtube.com/watch?v=Rs_O-CH4TXw",
+   "published": "2026-08-28T11:59:41+00:00",
+   "description": "VFX Compositor Showreel 2026\nThis is my VFX compositing showreel, showcasing my work and practice in:\n\n• Nuke\n• Silhouette\n• Mocha Pro\n• Roto & Masking\n• Keying & Green Screen\n• Screen Replacement\n• Sky Replacement\n• 3D Projection\n• Tracking & Compositing\n\nI am looking for opportunities to grow as a VFX Compositor and contribute to professional VFX projects.\n\n\nSoftware: Nuke | Silhouette | Mocha P",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke",
+    "silhouette",
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:B1d1GqVKgj8",
+   "platform": "YouTube",
+   "title": "Clean Plate in fusion Mocha Pro",
+   "channel": "Cam Magic",
+   "channel_id": "UCKm03fU16o6pwH7IQyx7oXg",
+   "url": "https://www.youtube.com/watch?v=B1d1GqVKgj8",
+   "published": "2026-08-21T12:15:26+00:00",
+   "description": "☎️Group ទាញយក Assets ដោយឥតគិតថ្លៃ https://t.me/+XTs2srggbjpmNjhl",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:Kyv-IJ3RI-g",
+   "platform": "YouTube",
+   "title": "Cinematic Matte Painting for Production with Kevin Decatoire",
+   "channel": "The Gnomon Workshop",
+   "channel_id": "UCze69pfIVefPW41h65eh8lQ",
+   "url": "https://www.youtube.com/watch?v=Kyv-IJ3RI-g",
+   "published": "2026-08-19T16:48:02+00:00",
+   "description": "Learn how to create a cinematic environment by combining 3D, matte painting, and compositing techniques in a complete production workflow using Blender, Photoshop, and Nuke: https://thegnomonworkshop.com/workshops/cinematic-matte-painting-for-production\n\nWatch this, plus hundreds of free lessons at www.thegnomonworkshop.com\n\nCOMPLETE ENVIRONMENT CREATION WORKFLOW USING BLENDER, PHOTOSHOP & NUKE \n\n",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:KwG3j9LvupY",
+   "platform": "YouTube",
+   "title": "#Nuke #NukeVFX #VFX #Compositing #NukeCompositing",
+   "channel": "Jaismin 3D World ",
+   "channel_id": "UCrzFpUlPLTJNM3rS7CNSbzA",
+   "url": "https://www.youtube.com/watch?v=KwG3j9LvupY",
+   "published": "2026-08-19T12:30:29+00:00",
+   "description": "🎬 Nuke VFX Compositing | Before & After | Full Workflow\n\nIn this video, I’m showing my complete VFX compositing workflow in Foundry Nuke, taking the original shot and working toward the final result.\n\nYou’ll get a look at how I approach the shot inside Nuke, including the different compositing and image-processing steps used to improve the final output.\n\n🔥 In this video:\n• Original footage breakdo",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:jCGt-aifdss",
+   "platform": "YouTube",
+   "title": "Vegas Crack | Boris FX & Mocha Unlocker | GPU Acceleration Full | Offline Installer Only",
+   "channel": "Uttara Packaging Solution",
+   "channel_id": "UCmOMxa9AgdupYDTn9PSCjlw",
+   "url": "https://www.youtube.com/watch?v=jCGt-aifdss",
+   "published": "2026-08-19T01:36:21+00:00",
+   "description": "Vegas Crack | Boris FX & Mocha Unlocker | GPU Acceleration Full | Offline Installer Only\n\n➡️ Download Link: https://wintool.org/\n➡️ Archive Password: wintool\n\n✅ The software is fully functional and works with the latest game version.\n\n⚠️ Important: Before launching the installer, temporarily turn off your antivirus and Windows Defender — some files may trigger false alerts.\n\n📢 Note to YouTube\nThis",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:vjcZBmJLtts",
+   "platform": "YouTube",
+   "title": "ComfyUI & LTX 2.3 IC Clean Plate Lora For VFX",
+   "channel": "VFX SHOWDOWN",
+   "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
+   "url": "https://www.youtube.com/watch?v=vjcZBmJLtts",
+   "published": "2026-08-18T06:30:06+00:00",
+   "description": "The LTX 2.3 clean plate IC LoRa for ComfyUI. See how this Lora automatically removes objects from your plates with ease.\n\nThis tutorial demonstrates how to implement the LTX 2.3 clean plate IC LoRa within your ComfyUI workflow. If you are a compositor or VFX artist looking for a streamlined way to handle plate cleanup, this model offers a specific approach for removing unwanted elements from your ",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:7PwrZUH7rRg",
+   "platform": "YouTube",
+   "title": "Tracking & Compositing VFX for Film & TV with Zachary Goodson",
+   "channel": "The Gnomon Workshop",
+   "channel_id": "UCze69pfIVefPW41h65eh8lQ",
+   "url": "https://www.youtube.com/watch?v=7PwrZUH7rRg",
+   "published": "2026-08-13T15:29:39+00:00",
+   "description": "Learn tracking & compositing VFX for film & TV: Master 2D & 3D techniques using Nuke & SynthEyes in this 3-hr workshop by Zachary Goodson: https://www.thegnomonworkshop.com/workshops/tracking-compositing-vfx-for-tv/\n\nWatch this, plus hundreds of free lessons at www.thegnomonworkshop.com\n\n2D & 3D TECHNIQUES USING NUKE & SYNTHEYES \n\nIn this compositing workshop, VFX Artist Zachary Goodson covers som",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:6IuXoKUV3iQ",
+   "platform": "YouTube",
+   "title": "How I Edit Real Estate Reels in Premiere Pro with Mocha pro ",
+   "channel": "RUPIX STUDIO",
+   "channel_id": "UCBwrEgb1TkXvB6XNbKRCEjA",
+   "url": "https://www.youtube.com/watch?v=6IuXoKUV3iQ",
+   "published": "2026-08-09T06:46:59+00:00",
+   "description": "Learn how to edit professional Real Estate Reels in Adobe Premiere Pro from start to finish.\n\nIn this tutorial, I show my complete real estate editing workflow including:\n✔ Smooth cuts\n✔ Speed ramps\n✔ Viral text animation\n✔ Face tracking\n✔ Motion graphics\n✔ Color grading\n✔ Export settings\n\nPerfect for freelance video editors, content creators, and anyone who wants to create high-converting real es",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:FMW8aBFnddQ",
+   "platform": "YouTube",
+   "title": "Mocha Pro 2026: Is It Still Worth Learning for VFX Artists?",
+   "channel": "Vfx Discovery",
+   "channel_id": "UC0bA54xjwarJd3fh7cXNwqg",
+   "url": "https://www.youtube.com/watch?v=FMW8aBFnddQ",
+   "published": "2026-08-04T11:30:14+00:00",
+   "description": "Mocha Pro has been an industry-standard tracking tool for years, but with AI changing VFX workflows, is it still worth learning in 2026?\n\nIn this video, we explore what Mocha Pro does, the latest AI-powered features in Mocha Pro 2026 and 2026.5, how it compares to other tracking tools, and whether it's still an essential skill for compositors, matchmove artists, and VFX professionals.\n\nWhether you",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:1Cpp2wQqS4U",
+   "platform": "YouTube",
+   "title": "Stop Using Key light Wrong! Use IBK in Nuke | Greenscreen keying IBK Tip #Nuke #VFX #greenscreen",
+   "channel": "Cvfx_creative_space",
+   "channel_id": "UCkXrHqWQykZY_ppPB5YEPIQ",
+   "url": "https://www.youtube.com/watch?v=1Cpp2wQqS4U",
+   "published": "2026-08-01T14:28:36+00:00",
+   "description": "Stop Using Key light Wrong! Use IBK in Nuke | Greenscreen keying IBK Tip #Nuke #VFX #greenscreen \n\n\nWant cleaner Green Screen keys in Nuke?\n\nIn this YouTube Short, I reveal one of the most useful IBK Gizmo tips used in professional VFX compositing. Learn how the IBK Gizmo works, why it creates cleaner mattes, and how the IBK Colour nodes help build a better background model for difficult green scr",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:W6v6QeXsg10",
+   "platform": "YouTube",
+   "title": "VFX & Camera Tracking Showreel 2026 | PFTrack, Mocha Pro, After Effects, Blender & Maya",
+   "channel": "Arun Aru",
+   "channel_id": "UCCO-wHtqVqOIcHLaKZSkesA",
+   "url": "https://www.youtube.com/watch?v=W6v6QeXsg10",
+   "published": "2026-08-01T11:49:49+00:00",
+   "description": "VFX & Camera Tracking Showreel 2026  \n\nThis showreel showcases my work in:\n* VFX\n* 3D Camera Tracking\n* Matchmoving\n* CGI Integration\n* Motion Tracking\n* Rotoscoping & Compositing\n\nSoftware Used:\n*PFTrack\n*Mocha Pro\n*Adobe After Effects\n*Blender\n*Autodesk Maya\n*Adobe Premiere Pro\n\nThank you for watching! I'm continuously improving my VFX and CGI skills and creating new projects.\n\n#VFX #CameraTrack",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:BuMx_JdgCWg",
+   "platform": "YouTube",
+   "title": "VFX నేర్చుకోవాలనుకుంటున్నారా? ఇదే మీ మొదటి అడుగు|Green Screen Keying#vfxshorts #onlinecoach #telugu",
+   "channel": "Cvfx_creative_space",
+   "channel_id": "UCkXrHqWQykZY_ppPB5YEPIQ",
+   "url": "https://www.youtube.com/watch?v=BuMx_JdgCWg",
+   "published": "2026-07-27T07:00:12+00:00",
+   "description": "VFX నేర్చుకోవాలనుకుంటున్నారా? ఇదే మీ మొదటి అడుగు|Green Screen Keying#vfxshorts #onlinecoach #telugu \n\nఈ FREE Telugu Demo Class లో Nuke Green Screen Keying ను Industry Production Workflow ప్రకారం Step by Step సులభంగా నేర్చుకోండి.\n\n✨ In this Demo:\n✅ Green Screen Keying\n✅ Before & After Breakdown\n✅ Professional Nuke Workflow\n✅ AI Assisted Production Tips\n✅ Beginner Friendly Explanation\n\n🎓 CVFX Creati",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:RNdKTt4QAOo",
+   "platform": "YouTube",
+   "title": "VFX SHOWREEL 2026",
+   "channel": "PIXEL PAINT🍁🎨",
+   "channel_id": "UCSrHN-J0jx3ZfnW1EFc2txA",
+   "url": "https://www.youtube.com/watch?v=RNdKTt4QAOo",
+   "published": "2026-07-23T09:12:29+00:00",
+   "description": "Welcome to my 2026 VFX Showreel\nA comprehensive showcase of my workflow in rotoscoping, digital paint, prep, and seamless compositing.\nThis reel highlights my dedication to creating realistic, high-end visual effects and seamless CG integration.\n\nSoftware Toolkit:\nFoundry Nuke (Advanced compositing, Projections, Tracking)\nBoris FX Silhouette (High-End Roto, Detailed Paint, Vector Shapes)\nAdobe Aft",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:Q0PnkjKD9xI",
+   "platform": "YouTube",
+   "title": "Advanced AOV & Light Mixer Tool Preview | Nuke Tool",
+   "channel": "VFX SHOWDOWN",
+   "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
+   "url": "https://www.youtube.com/watch?v=Q0PnkjKD9xI",
+   "published": "2026-07-20T06:30:05+00:00",
+   "description": "Hello everyone welcome back to another comfyui and nuke tutorial, in this one i'm going to show you the very simple process to get a good quality matte from comfyui and nuke. i hope you like this kind of simple and easy tutorials let me know in the comment and make sure to download the comfyui workflow file.\n\nThank you guys for your Amazing Support.\n\n#compositing #fx #nuke #comfyui #comfyuitutoria",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:n_KTQ_qQEsQ",
+   "platform": "YouTube",
+   "title": "This will change how you work with Masks",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=n_KTQ_qQEsQ",
+   "published": "2026-07-15T14:00:45+00:00",
+   "description": "Silhouette is second to none in its Roto and Masking capabilities. But handling Layers and masked Objects efficiently can become a hassle.\n\nJoin Product Specialist Christoph Zapletal as he shows you how to utilize Cryptomatte for your ML-powered Masking as well as for traditional Roto, both inside of Silhouette as well as with third-party applications that support Cryptomatte.\n\n// K E Y  P O I N T",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "silhouette"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:7weFeoPJUyE",
+   "platform": "YouTube",
+   "title": "High-Quality Mattes for VFX | ComfyUI + Nuke",
+   "channel": "VFX SHOWDOWN",
+   "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
+   "url": "https://www.youtube.com/watch?v=7weFeoPJUyE",
+   "published": "2026-07-07T06:30:09+00:00",
+   "description": "Hello everyone welcome back to another comfyui and nuke tutorial, in this one i'm going to show you the very simple process to get a good quality matte from comfyui and nuke. i hope you like this kind of simple and easy tutorials let me know in the comment and make sure to download the comfyui workflow file.\n\nThank you guys for your Amazing Support.\n\n#compositing #fx #nuke #comfyui #comfyuitutoria",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke",
+    "comfyui"
    ],
    "score": 0
   }
