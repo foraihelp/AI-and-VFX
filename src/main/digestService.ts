@@ -2,13 +2,15 @@ import { app } from 'electron'
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import type { DigestResult, EmailPayload, Video } from '../shared/types'
-import { discover } from './engine/discovery'
+import { discover, httpGet } from './engine/discovery'
+import { feedToVideos, parseFeed } from './engine/githubFeed'
 import { buildEmail } from './engine/formatting'
 import { select } from './engine/filtering'
 import { loadSources } from './engine/sources'
 import { sendEmail } from './mailer'
 import { getRaw, getSecrets } from './settings'
 
+export const FEED_URL = 'https://raw.githubusercontent.com/foraihelp/AI-and-VFX/main/state/feed.json'
 const userSources = (): string => join(app.getPath('userData'), 'sources.yaml')
 const emailedFile = (): string => join(app.getPath('userData'), 'emailed.json')
 const bundledSources = (): string =>
@@ -32,6 +34,7 @@ let lastSoftware: DigestResult['software'] = []
 
 export async function runDigest(windowDays: number): Promise<DigestResult> {
   const days = Math.min(60, Math.max(1, Math.round(windowDays)))
+  if (getRaw().dataSource === 'github') return runFromGitHub(days)
   const sources = loadSources(sourcesPath())
   const s = getRaw()
   const apiKey = getSecrets().youtubeKey
@@ -44,7 +47,33 @@ export async function runDigest(windowDays: number): Promise<DigestResult> {
   lastSoftware = sources.software.map(({ id, name }) => ({ id, name }))
   return {
     videos: chosen, software: lastSoftware, warnings, generatedAt: now.toISOString(),
-    windowDays: days, usedApi: !!apiKey, emailed: Object.keys(readEmailed())
+    windowDays: days, usedApi: !!apiKey, emailed: Object.keys(readEmailed()), source: 'live'
+  }
+}
+
+/** Read the feed that the daily GitHub run publishes (no YouTube key needed on this PC). */
+async function runFromGitHub(days: number): Promise<DigestResult> {
+  let text: string
+  try {
+    text = await httpGet(FEED_URL)
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e)
+    throw new Error(msg.includes('404')
+      ? 'No feed on GitHub yet. Run the workflow with mode "refresh-feed" (Actions tab), then press Refresh.'
+      : `Could not reach GitHub: ${msg}`)
+  }
+  const feed = parseFeed(text)
+  const now = new Date()
+  const videos = feedToVideos(feed, new Date(now.getTime() - days * 86_400_000))
+  lastVideos = videos
+  lastSoftware = feed.software
+  const warnings: string[] = []
+  const ageH = (now.getTime() - Date.parse(feed.generated_at)) / 3_600_000
+  if (ageH > 36) warnings.push(`The GitHub feed is ${Math.round(ageH)} hours old. Run the workflow (mode "refresh-feed") to update it.`)
+  if (days > feed.window_days) warnings.push(`The feed only covers the last ${feed.window_days} days.`)
+  return {
+    videos, software: feed.software, warnings, generatedAt: now.toISOString(), windowDays: days,
+    usedApi: false, emailed: Object.keys(readEmailed()), source: 'github', feedGeneratedAt: feed.generated_at
   }
 }
 

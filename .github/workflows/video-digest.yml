@@ -8,12 +8,12 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "send = email + remember videos | dry-run = print only | test-email = tiny test message"
+        description: "send = email + remember videos | refresh-feed = update the desktop-app feed only | dry-run = print only | test-email = tiny test message"
         type: choice
         default: dry-run
-        options: [dry-run, send, test-email, resolve-channels]
+        options: [dry-run, send, test-email, resolve-channels, refresh-feed]
 
-# Needed only so the job can commit state/seen.json.
+# Needed only so the job can commit state/seen.json and state/feed.json.
 permissions:
   contents: write
 
@@ -67,17 +67,18 @@ jobs:
             send)       python -m video_digest --send ;;
             test-email) python -m video_digest test-email ;;
             resolve-channels) python -m video_digest resolve-channels ;;
+            refresh-feed) python -m video_digest publish-feed ;;
             *)          python -m video_digest ;;
           esac
 
       - name: Commit updated state
-        if: github.event_name == 'schedule' || inputs.mode == 'send'
+        if: github.event_name == 'schedule' || inputs.mode == 'send' || inputs.mode == 'refresh-feed'
         run: |
           git config user.name "video-digest-bot"
           git config user.email "video-digest-bot@users.noreply.github.com"
-          git add state/seen.json
+          git add state/
           if git diff --cached --quiet; then echo "No state change."; exit 0; fi
-          git commit -m "Update video digest state [skip ci]"
+          git commit -m "Update video digest state and feed [skip ci]"
           for i in 1 2 3; do
             git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
             sleep $((i * 5))

@@ -92,6 +92,9 @@ export default function App(): JSX.Element {
   }
   const open = (url: string): void => { void window.api.openExternal(url) }
   const today = new Intl.DateTimeFormat('en-GB', { timeZone: tz, dateStyle: 'full' }).format(new Date())
+  const synced = data?.feedGeneratedAt
+    ? `synced from GitHub · feed built ${new Intl.DateTimeFormat('en-GB', { timeZone: tz, day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZoneName: 'short' }).format(new Date(data.feedGeneratedAt))}`
+    : data ? 'live from YouTube' : ''
 
   const Story = ({ v, big }: { v: Video; big?: boolean }): JSX.Element => {
     const d = snippet(v, big ? 320 : 180)
@@ -122,7 +125,7 @@ export default function App(): JSX.Element {
           </div>
           <div className="kicker">Nuke · Silhouette · Mocha · ComfyUI</div>
           <h1>The AI &amp; VFX Digest</h1>
-          <div className="dateline">{today} · {loading ? 'gathering…' : `${visible.length} video${visible.length === 1 ? '' : 's'}`}</div>
+          <div className="dateline">{today} · {loading ? 'gathering…' : `${visible.length} video${visible.length === 1 ? '' : 's'}`}{synced && !loading ? ` · ${synced}` : ''}</div>
         </header>
 
         <div className="toolbar">

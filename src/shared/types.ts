@@ -46,9 +46,14 @@ export interface DigestResult {
   windowDays: number
   usedApi: boolean
   emailed: string[] // ids already emailed
+  source: 'github' | 'live'
+  feedGeneratedAt?: string // when the GitHub run built the feed
 }
 
+export type DataSource = 'github' | 'live'
+
 export interface PublicSettings {
+  dataSource: DataSource
   timezone: string
   summaries: 'description' | 'off'
   maxItemsPerSoftware: number
@@ -69,6 +74,7 @@ export interface PublicSettings {
 
 /** Fields the user can change. Secrets are write-only: undefined = keep, '' = clear. */
 export interface SettingsUpdate {
+  dataSource?: DataSource
   timezone?: string
   summaries?: 'description' | 'off'
   maxItemsPerSoftware?: number

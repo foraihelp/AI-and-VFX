@@ -10,6 +10,7 @@ interface Props {
 }
 
 export default function SettingsDrawer({ settings, onClose, onSaved, onError, onInfo }: Props): JSX.Element {
+  const [dataSource, setDataSource] = useState(settings.dataSource)
   const [timezone, setTimezone] = useState(settings.timezone)
   const [summaries, setSummaries] = useState(settings.summaries)
   const [maxItems, setMaxItems] = useState(settings.maxItemsPerSoftware)
@@ -21,7 +22,7 @@ export default function SettingsDrawer({ settings, onClose, onSaved, onError, on
   const [busy, setBusy] = useState(false)
 
   const build = (): SettingsUpdate => ({
-    timezone, summaries, maxItemsPerSoftware: maxItems, includeShorts: shorts,
+    dataSource, timezone, summaries, maxItemsPerSoftware: maxItems, includeShorts: shorts,
     ...(ytKey ? { youtubeKey: ytKey } : {}),
     email: {
       provider: e.provider, to: e.to.trim(), from: e.from.trim(), smtpHost: e.smtpHost.trim(), smtpPort: e.smtpPort,
@@ -42,6 +43,15 @@ export default function SettingsDrawer({ settings, onClose, onSaved, onError, on
       <aside className="drawer" aria-label="Settings">
         <h2>Settings</h2>
         <div className="hint">Keys and passwords are stored encrypted on this PC and are never shown again.</div>
+
+        <h5>Where videos come from</h5>
+        <div className="field">
+          <select value={dataSource} onChange={(x) => setDataSource(x.target.value as 'github' | 'live')}>
+            <option value="github">GitHub feed (no key needed)</option>
+            <option value="live">Live from YouTube (needs your API key)</option>
+          </select>
+          <div className="hint">GitHub feed: the daily GitHub run does the searching with its own key and publishes the result; this app just reads it, so it is at most a day old. Live: this app searches YouTube itself using the key below.</div>
+        </div>
 
         <h5>YouTube</h5>
         <div className="field">

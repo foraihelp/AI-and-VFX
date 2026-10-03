@@ -1,9 +1,10 @@
 import { app, safeStorage } from 'electron'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
-import type { PublicSettings, SettingsUpdate } from '../shared/types'
+import type { DataSource, PublicSettings, SettingsUpdate } from '../shared/types'
 
 interface Stored {
+  dataSource: DataSource
   timezone: string
   summaries: 'description' | 'off'
   maxItemsPerSoftware: number
@@ -23,6 +24,7 @@ interface Stored {
 }
 
 const DEFAULTS: Stored = {
+  dataSource: 'github',
   timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC',
   summaries: 'description',
   maxItemsPerSoftware: 15,
@@ -67,7 +69,7 @@ export function getPublicSettings(): PublicSettings {
   const s = load()
   const { smtpPassword, resendKey, ...email } = s.email
   return {
-    timezone: s.timezone, summaries: s.summaries, maxItemsPerSoftware: s.maxItemsPerSoftware,
+    dataSource: s.dataSource, timezone: s.timezone, summaries: s.summaries, maxItemsPerSoftware: s.maxItemsPerSoftware,
     includeShorts: s.includeShorts, hasYoutubeKey: !!s.youtubeKey,
     email: { ...email, hasSmtpPassword: !!smtpPassword, hasResendKey: !!resendKey }
   }
@@ -87,6 +89,7 @@ export function updateSettings(u: SettingsUpdate): PublicSettings {
   if (u.timezone !== undefined) {
     try { new Intl.DateTimeFormat('en-GB', { timeZone: u.timezone }); s.timezone = u.timezone } catch { throw new Error(`"${u.timezone}" is not a valid timezone name`) }
   }
+  if (u.dataSource) s.dataSource = u.dataSource
   if (u.summaries) s.summaries = u.summaries
   if (u.maxItemsPerSoftware !== undefined) s.maxItemsPerSoftware = Math.min(100, Math.max(1, Math.round(u.maxItemsPerSoftware)))
   if (u.includeShorts !== undefined) s.includeShorts = u.includeShorts
