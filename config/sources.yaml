@@ -57,13 +57,16 @@ channels:
     official: true
     software: [nuke]
   - name: Boris FX (official)
-    handle: "@borisfx"
-    channel_id: UCAnNFKXehw8eIlDU0XN3VsA
+    channel_id: UCFYIs4rin2YgKKnYxEd6JAA      # youtube.com/@BorisFX - verified by RSS
+    official: true
+    software: [silhouette, mocha]
+  - name: Boris FX Learn (official)
+    channel_id: UCQaf9ihgW8W7RwjiNjNcAaQ      # tutorials; also covers audio products, so keywords still apply
     official: true
     software: [silhouette, mocha]
   - name: ComfyUI (official)
-    handle: "@comfyui"
-    channel_id: UCaVhziQbXkTLiERYTak95Qw
+    handle: "@comfyorg"                        # resolved at run time when an API key is set
+    channel_id: ""
     official: true
     trust_all: true
     software: [comfyui]
@@ -81,6 +84,10 @@ searches:
   - { query: "Silhouette rotoscoping paint workflow", software: [silhouette] }
   - { query: "Boris FX Mocha Pro new features", software: [mocha] }
   - { query: "Mocha Pro tracking tutorial workflow", software: [mocha] }
+  - { query: "Mocha Pro 2026", software: [mocha] }
+  - { query: "Mocha Pro planar tracker remove tool", software: [mocha] }
+  - { query: "Boris FX Silhouette 2026", software: [silhouette] }
+  - { query: "Silhouette paint roto tutorial Boris FX", software: [silhouette] }
   - { query: "ComfyUI workflow tutorial", software: [comfyui] }
   - { query: "ComfyUI custom nodes new release", software: [comfyui] }
   - { query: "comfy ui video generation workflow", software: [comfyui] }
