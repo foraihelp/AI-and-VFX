@@ -22,6 +22,7 @@ def build_feed(videos: Sequence[Video], software: Sequence[Software], *, now: da
         "software": [{"id": s.id, "name": s.name} for s in software],
         "videos": [{
             "id": v.video_id, "platform": v.platform, "title": v.title, "channel": v.channel,
+            "channel_id": v.channel_id,
             "url": v.url, "published": v.published.isoformat(timespec="seconds"),
             "description": v.description[:DESCRIPTION_CHARS], "official": v.official,
             "kind": v.kind, "software": v.software, "score": v.score,

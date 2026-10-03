@@ -7,10 +7,10 @@
 software:
   - id: nuke
     name: Foundry Nuke
-    strong: [foundry nuke, nukex, nuke studio, nuke 13, nuke 14, nuke 15, nuke 16, nuke 17, cattery, copycat nuke]
+    strong: [foundry nuke, nukex, nuke studio, nuke indie, nuke non-commercial, nuke learning edition, nuke stage, smartroto, hiero, nuke 13, nuke 14, nuke 15, nuke 16, nuke 17, nuke 18, cattery, copycat nuke, copycat]
     weak: [nuke]                       # ambiguous word: needs a context term below
     context: [compositing, compositor, comp, vfx, foundry, roto, keying, deep compositing, cattery, nodes, gizmo, 3d tracking, camera tracking]
-    exclude: [nuclear, nukes, bomb, minecraft, warzone, valorant, "call of duty", cs2, csgo, fortnite, "rust game", tactical nuke]
+    exclude: [griptape, nuclear, nukes, bomb, minecraft, warzone, valorant, "call of duty", cs2, csgo, fortnite, "rust game", tactical nuke]
 
   - id: silhouette
     name: Boris FX Silhouette

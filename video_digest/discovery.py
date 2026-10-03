@@ -104,7 +104,7 @@ def video_from_api_item(item: dict, *, official: bool, source: str) -> Video:
     live = sn.get("liveBroadcastContent", "none") in {"live", "upcoming"}
     return Video(
         video_id=f"yt:{vid}", platform="YouTube", title=sn.get("title", ""),
-        channel=sn.get("channelTitle", ""), url=f"https://www.youtube.com/watch?v={vid}",
+        channel=sn.get("channelTitle", ""), channel_id=sn.get("channelId", ""), url=f"https://www.youtube.com/watch?v={vid}",
         published=parse_iso_datetime(sn["publishedAt"]), description=sn.get("description", ""),
         official=official, source=source,
         duration_seconds=parse_duration(item.get("contentDetails", {}).get("duration", "")),
@@ -159,7 +159,7 @@ def parse_feed(xml_bytes: bytes, *, platform: str, official: bool, source: str,
                 desc = c.text.strip()
                 break
         videos.append(Video(video_id=canonical_id(link), platform=platform, title=title,
-                            channel=author or feed_title, url=link, published=published,
+                            channel=author or feed_title, channel_id=_child_text(e, "channelId"), url=link, published=published,
                             description=desc, official=official, source=source))
     return videos
 

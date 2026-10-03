@@ -15,6 +15,7 @@ class Video:
     url: str                 # direct link to the video
     published: datetime      # timezone-aware (UTC)
     description: str = ""
+    channel_id: str = ""     # YouTube channel ID when known (UC...)
     official: bool = False   # came from an official vendor channel/feed
     source: str = ""         # name of the source entry that found it
     duration_seconds: Optional[int] = None
