@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-03T09:53:43+00:00",
+ "generated_at": "2026-10-03T10:06:22+00:00",
  "window_days": 30,
  "software": [
   {
@@ -21,6 +21,82 @@
   }
  ],
  "videos": [
+  {
+   "id": "yt:o4TvsJtYhqU",
+   "platform": "YouTube",
+   "title": "How to integrate Silhouette Point Track ML Data into After Effects",
+   "channel": "Boris FX",
+   "url": "https://www.youtube.com/watch?v=o4TvsJtYhqU",
+   "published": "2026-09-10T13:28:25+00:00",
+   "description": "Silhouette offers some great trackers, including Point Track ML for hard-to-track shots. But sometimes you might want to access this tracking data inside of After Effects. \n\nProduct Specialist Christoph Zapletal shows how to use Silhouette's robust point tracker node, taking into account specific requirements for transferring Corner Pin Tracking Data to Adobe After Effects.\n\nYou'll not only learn ",
+   "official": true,
+   "kind": "tutorial",
+   "software": [
+    "silhouette"
+   ],
+   "score": 110
+  },
+  {
+   "id": "yt:3pBDHdgVD1E",
+   "platform": "YouTube",
+   "title": "Comfy Developer Platform: Building with Comfy API & Comfy Router",
+   "channel": "ComfyUI",
+   "url": "https://www.youtube.com/watch?v=3pBDHdgVD1E",
+   "published": "2026-10-02T05:51:45+00:00",
+   "description": "Comfy Developer Platform is here! Build advanced creative workflows and run generative media models. Deploy your own ComfyUI workflows as production APIs with Comfy API, or call frontier image, video, 3D, and audio models through Comfy Router, all on one platform.\n\nWe'll give a quick overview of the features that make up Comfy Developer Platform, and then we're opening it up to YOU our community t",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:gDRn8k3-mDA",
+   "platform": "YouTube",
+   "title": "Comfy Agent: Live Art Build, VFX & Product Marketing",
+   "channel": "ComfyUI",
+   "url": "https://www.youtube.com/watch?v=gDRn8k3-mDA",
+   "published": "2026-09-24T18:26:52+00:00",
+   "description": "Comfy Agent is nearly here! Today we're turning it over to Product Manager Jo Zhang and 3D artist Shane Fu to show us the agent in action.\n\nWhat we'll cover:\n🤖 Getting started in Comfy Agent\n🤖 VFX workflow\n🤖 Product/brand marketing workflow\n🤖 Live build of a digital art project \n🤖 Community Q&A — bring your questions\n\n⏰ Subscribe and enable notifications to catch the stream live\n💬 Submit your ques",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:qNZxkYhNC_0",
+   "platform": "YouTube",
+   "title": "Why Screen Replacements Fail and How You Fix It",
+   "channel": "Boris FX",
+   "url": "https://www.youtube.com/watch?v=qNZxkYhNC_0",
+   "published": "2026-09-24T14:01:15+00:00",
+   "description": "Screen replacements get difficult fast when the phone is moving, a hand crosses the display, and reflections confuse the track.\n\nIn this Boris FX Silhouette tutorial, you’ll learn how to keep those problems from breaking your shot. See how Mocha’s planar tracker works with occlusion mattes to track around moving hands, how subtractive masks can stop screen details from throwing off the track, and ",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "silhouette",
+    "mocha"
+   ],
+   "score": 100
+  },
+  {
+   "id": "yt:69slO15ovL8",
+   "platform": "YouTube",
+   "title": "Developer Platform 101: Building with the New Comfy API",
+   "channel": "ComfyUI",
+   "url": "https://www.youtube.com/watch?v=69slO15ovL8",
+   "published": "2026-09-18T05:51:57+00:00",
+   "description": "Calling all developers! Join us for a hands-on walkthrough of the new Comfy Developer Platform, what it does, and how to actually ship on it.\n\nWe'll take a workflow from a graph on the canvas to a deployed, running endpoint on air— no GPU configuration, no infrastructure to stand up, pay only for what you use. Along the way we'll cover Comfy Router for reaching partner models through the SDK and H",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 100
+  },
   {
    "id": "yt:Qx10NfP_7Kc",
    "platform": "YouTube",
@@ -127,21 +203,6 @@
    "score": 15
   },
   {
-   "id": "yt:UpNNiv7Pd3M",
-   "platform": "YouTube",
-   "title": "MiniMax H3 настройка workflow OLD - Motion Context полторы минуты видео за одну генерацию",
-   "channel": "Творчество Comfy Ui",
-   "url": "https://www.youtube.com/watch?v=UpNNiv7Pd3M",
-   "published": "2026-10-02T13:10:04+00:00",
-   "description": "MiniMax H3 Motion Context Advanced — как работает и как настроить\n\nВ этом видео разбираем, как запустить MiniMax H3 Ref2VA + Motion Context Advanced в ComfyUI и получать продолжения видео с сохранением персонажа, движения, камеры и аудио.\n\nМодель работает через референсы персонажа + Motion Context. Первый клип создаётся на основе изображений персонажа и промпта, а следующие клипы используют предыд",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
    "id": "yt:Nb_kgQ1lyVE",
    "platform": "YouTube",
    "title": "RunPod + ComfyUI for AI Video: Our Codex and MCP Workflow",
@@ -194,6 +255,21 @@
    "url": "https://www.youtube.com/watch?v=vQY29bcW-qI",
    "published": "2026-09-29T09:11:43+00:00",
    "description": "Create a Custom iNode from ComfyUI and use it inside your creative software.\n\nThis tutorial shows the complete process for turning a ComfyUI workflow into a custom iNodes node that can then be accessed from supported creative applications.\n\nSteps covered in the video:\n\n1. Go to Build an App in ComfyUI\n2. Select the workflow Inputs\n3. Select the workflow Outputs\n4. Export the App.json file\n5. Expor",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:Rmrxc_SzZb4",
+   "platform": "YouTube",
+   "title": "Create AI Videos with ComfyUI Workflow | Complete Guide",
+   "channel": "Code To Cashflow HQ",
+   "url": "https://www.youtube.com/watch?v=Rmrxc_SzZb4",
+   "published": "2026-09-29T05:03:11+00:00",
+   "description": "🚀 Welcome to Code To Cashflow HQ!\n\nIn this complete guide, we'll build an AI video generation workflow in ComfyUI from the ground up and learn how the different nodes work together to turn a text prompt into a generated video.\n\nIf you're interested in local AI, open-source video generation, ComfyUI, AI filmmaking, or generative AI, this tutorial will give you a practical starting point.\n\n🎥 In This",
    "official": false,
    "kind": "workflow",
    "software": [
@@ -322,21 +398,6 @@
    "score": 10
   },
   {
-   "id": "yt:iiHFp57FEEo",
-   "platform": "YouTube",
-   "title": "Wan 2.2 Open Source AI Is INSANE! 🔥 Complete ComfyUI Tutorial | AI Video Generation",
-   "channel": "3D With Umar",
-   "url": "https://www.youtube.com/watch?v=iiHFp57FEEo",
-   "published": "2026-09-29T05:15:12+00:00",
-   "description": "Wan 2.2 is here! 🔥 In this video, I’ll show you how to get started with Wan 2.2 and use it with ComfyUI for AI video generation.\n\nWe’ll cover:\n\nWhat is Wan 2.2?\nHow to download and set up ComfyUI\nWan 2.2 model setup\nComfyUI workflow\nText-to-Video generation\nImage-to-Video generation\nPrompting for better AI videos\nBasic settings and workflow control\n\nIf you're interested in AI video generation, Com",
-   "official": false,
-   "kind": "tutorial",
-   "software": [
-    "comfyui"
-   ],
-   "score": 10
-  },
-  {
    "id": "yt:b9saBPTbkgQ",
    "platform": "YouTube",
    "title": "AI CopyCat method in Nuke (Marker Removal) - Tutorial",
@@ -348,6 +409,21 @@
    "kind": "tutorial",
    "software": [
     "nuke"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:JBnh9qG0-bk",
+   "platform": "YouTube",
+   "title": "How To Track & Roto Anything With Mocha Pro | After Effects Tutorial #mochapro ",
+   "channel": "Akay Ae",
+   "url": "https://www.youtube.com/watch?v=JBnh9qG0-bk",
+   "published": "2026-09-27T14:45:22+00:00",
+   "description": "How To Track & Roto Anything With Mocha Pro | After Effects Tutorial #mochapro \n\nHello guys! \nIn this Tutorial, I'll show you How To Track & Roto Anything With Mocha Pro in After effects. \n\nMy Telegram Channel 👇\nhttps://t.me/+vHpLi8poFolhNDU1\n\nMy Instagram Account 👇\nhttps://www.instagram.com/ae_akay47?igsh=MWFyN3huZ2ozMjh0OA==\n\nYour queries 👇\n\nMocha Pro After Effects tutorial\nMocha Pro roto tutori",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "mocha"
    ],
    "score": 10
   },
@@ -412,6 +488,21 @@
    "score": 10
   },
   {
+   "id": "yt:LZbuHM2z5Zs",
+   "platform": "YouTube",
+   "title": "آموزش لیپ سینک حرفه‌ای با هوش مصنوعی | ComfyUI LTX 2.5",
+   "channel": "MohTips",
+   "url": "https://www.youtube.com/watch?v=LZbuHM2z5Zs",
+   "published": "2026-10-03T09:54:06+00:00",
+   "description": "در این ویدیوی آموزشی یاد می‌گیرید چطور با استفاده از هوش مصنوعی LTX 2.5 و محیط ComfyUI هر عکسی را به ویدیوی سخنگو یا خواننده تبدیل کنید. تمام مراحل نصب مدل‌ها، تنظیم ورک‌فلو و ایجاد لیپ‌سینک (Lip Sync) دقیق حتی روی موزیک و سبک رپ به صورت کاملاً رایگان و روی سیستم شخصی آموزش داده شده است.🚀 آموزش ساخت انیمیشن با AI با ۷۰٪ تخفیف و امکان خرید قسطی.\nhttps://mktb.me/eaqb/\n\n🔗مرجع ویدیو منتشر شده👇\n\nفایل و",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
    "id": "yt:gF8VyKPHx-o",
    "platform": "YouTube",
    "title": "4-Step Speedup, Less AI Gloss? ByteDance DMAD + H3 Character Swap LoRA | ComfyUI",
@@ -438,6 +529,21 @@
    "kind": "other",
    "software": [
     "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:zqUTIUQJuws",
+   "platform": "YouTube",
+   "title": "5 Minute Fusion Magic Mask Done Right + Mocha Pro",
+   "channel": "Teboho Edits",
+   "url": "https://www.youtube.com/watch?v=zqUTIUQJuws",
+   "published": "2026-10-02T19:55:54+00:00",
+   "description": "Magic Mask in DaVinci Resolve's Fusion page can do way more than most tutorials show you. In this episode of 5 Minute Fusion, I break down how to put text behind your subject, apply effects to your cutout without touching the background, and get the same result using Mocha Pro if you're coming from Premiere Pro or After Effects — all in under five minutes.\n\n🔗 Get 10% off Neo TextMotion (the all-in",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
    ],
    "score": 0
   },
@@ -517,21 +623,6 @@
    "score": 0
   },
   {
-   "id": "yt:3pBDHdgVD1E",
-   "platform": "YouTube",
-   "title": "Comfy Developer Platform: Building with Comfy API & Comfy Router",
-   "channel": "ComfyUI",
-   "url": "https://www.youtube.com/watch?v=3pBDHdgVD1E",
-   "published": "2026-10-02T05:51:45+00:00",
-   "description": "Comfy Developer Platform is here! Build advanced creative workflows and run generative media models. Deploy your own ComfyUI workflows as production APIs with Comfy API, or call frontier image, video, 3D, and audio models through Comfy Router, all on one platform.\n\nWe'll give a quick overview of the features that make up Comfy Developer Platform, and then we're opening it up to YOU our community t",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:RarmR8C9mr8",
    "platform": "YouTube",
    "title": "NOVO Comfy Agent agora CRIA WORKFLOWS: Vale a pena usar?!",
@@ -584,6 +675,21 @@
    "url": "https://www.youtube.com/watch?v=4yPuG7aOZTU",
    "published": "2026-10-01T14:31:55+00:00",
    "description": "I vibe-coded a real ad with Codex + ComfyUI . Here's the honest beginner workflow. \nI'm still learning ComfyUI in the traditional sense, but I connected Comfy to Codex, fed in a script, approved the images for consistency, then finished it in Final Cut Pro with music and voiceover. \nI also test the new Comfy Agent live to generate a location board.\n\nIn this video: how I generate consistent charact",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:cZNsmxckoxU",
+   "platform": "YouTube",
+   "title": "How I Use Qwen Image 2.1 for Consistent Architectural Rendering",
+   "channel": "Ok Todd AI",
+   "url": "https://www.youtube.com/watch?v=cZNsmxckoxU",
+   "published": "2026-10-01T12:00:08+00:00",
+   "description": "We are using Qwen Image 2.1 to try to solve the issue that Qwen sometimes has in ComfyUI where the new image doesn't line up exactly with the existing.  Sometimes it works perfectly and sometimes not.  But, this video shows you how to take a sketch or an architectural rendering and convert it line for line into a decent 3d render or photoreal result.\n\nFree workflow:  https://www.dropbox.com/scl/fi",
    "official": false,
    "kind": "other",
    "software": [
@@ -664,6 +770,23 @@
    "kind": "other",
    "software": [
     "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:AOPMwo7gYXE",
+   "platform": "YouTube",
+   "title": "Roto showreel 2026",
+   "channel": "pawan Kumar",
+   "url": "https://www.youtube.com/watch?v=AOPMwo7gYXE",
+   "published": "2026-09-30T09:25:41+00:00",
+   "description": "Welcome to my VFX Rotoscoping Showreel  This reel features my best and cleanest roto work, showcasing edge accuracy, motion tracking, and fine hair/edge detailing on complex shots.\nSoftwares Used:\n• Silhouette FX / Boris FX Silhouette\n• The Foundry NUKE\n• Mocha Pro\nLet’s Connect:\n• Email: pavan.uddanti6@gmail.com",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke",
+    "silhouette",
+    "mocha"
    ],
    "score": 0
   },
@@ -866,6 +989,36 @@
    "score": 0
   },
   {
+   "id": "yt:Q9wXZE6VJvE",
+   "platform": "YouTube",
+   "title": "Como Fazer Máscaras Perfeitas | Silhouette Boris FX",
+   "channel": "Wagner Barbosa Films",
+   "url": "https://www.youtube.com/watch?v=Q9wXZE6VJvE",
+   "published": "2026-09-12T23:06:00+00:00",
+   "description": "Descubra como fazer máscaras avançadas e selecionar de maneira perfeita os fios de cabelo em seus vídeos. \nNeste tutorial, mostro como o Silhouette da Boris FX é muito mais simples e eficiente para recortes complexos, poupando o tempo que você gastaria tentando refinar máscaras no After Effects ou no Fusion.\nO Silhouette é a ferramenta padrão de mercado para rotoscopia e remoção de objetos.  \n\nNo ",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "silhouette"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:4zQO0LIrAHg",
+   "platform": "YouTube",
+   "title": "DIGD711 06 Intro to Mocha Pro",
+   "channel": "AVG VFX at AUT",
+   "url": "https://www.youtube.com/watch?v=4zQO0LIrAHg",
+   "published": "2026-09-08T22:56:53+00:00",
+   "description": "",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
+   ],
+   "score": 0
+  },
+  {
    "id": "yt:7Khc-oLlCM8",
    "platform": "YouTube",
    "title": "Stop Guessing 3D Tracking! Understand the Nuke Camera Solve|#viral ,#nuke #compositing",
@@ -877,6 +1030,21 @@
    "kind": "other",
    "software": [
     "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:75EphPaY9gE",
+   "platform": "YouTube",
+   "title": "Трекинг экрана телефона в Mocha Pro.",
+   "channel": "pavelusha",
+   "url": "https://www.youtube.com/watch?v=75EphPaY9gE",
+   "published": "2026-09-05T18:09:46+00:00",
+   "description": "Трекинг телефона в Moka Pro с последующей зачисткой маркеров и  вставкой экрана .",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "mocha"
    ],
    "score": 0
   },
