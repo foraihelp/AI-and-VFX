@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-03T10:11:04+00:00",
+ "generated_at": "2026-10-03T12:10:41+00:00",
  "window_days": 90,
  "software": [
   {
@@ -551,6 +551,22 @@
    "score": 15
   },
   {
+   "id": "yt:Rmrxc_SzZb4",
+   "platform": "YouTube",
+   "title": "Create AI Videos with ComfyUI Workflow | Complete Guide",
+   "channel": "Code To Cashflow HQ",
+   "channel_id": "UCdjWPkLCrzaTrB0u_yYyk4Q",
+   "url": "https://www.youtube.com/watch?v=Rmrxc_SzZb4",
+   "published": "2026-09-29T05:03:11+00:00",
+   "description": "🚀 Welcome to Code To Cashflow HQ!\n\nIn this complete guide, we'll build an AI video generation workflow in ComfyUI from the ground up and learn how the different nodes work together to turn a text prompt into a generated video.\n\nIf you're interested in local AI, open-source video generation, ComfyUI, AI filmmaking, or generative AI, this tutorial will give you a practical starting point.\n\n🎥 In This",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
    "id": "yt:1wvCOgiv-d8",
    "platform": "YouTube",
    "title": "How to Build ComfyUI Custom Nodes With Claude",
@@ -679,6 +695,22 @@
    "score": 15
   },
   {
+   "id": "yt:Ru6Nd42qDqA",
+   "platform": "YouTube",
+   "title": "Cara GRATIS Cover Lagu UNLIMITED Tanpa Bayar SUNO | YuE2 Tutorial",
+   "channel": "Kelas WFA",
+   "channel_id": "UCJyHq8riJpwNfvpwPrUigLg",
+   "url": "https://www.youtube.com/watch?v=Ru6Nd42qDqA",
+   "published": "2026-10-02T16:18:22+00:00",
+   "description": "AI Music Generator Open Weight - Model AI untuk Generate Lagu dan Musik GRATIS Unlimited. Tutorial Lengkap!\n\nLINK YANG KAMU CARI:\nYuE2 Official:\nhttps://github.com/multimodal-art-projection/YuE\nDownload Checkpoint:\nhttps://huggingface.co/Comfy-Org/YuE2/tree/main/checkpoints\nDownload Audio Encoder:\nhttps://huggingface.co/Comfy-Org/YuE2/tree/main/audio_encoders\nDownload Workflow:\nhttps://bit.ly/4rLu",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
    "id": "yt:e6H_H-jDDJM",
    "platform": "YouTube",
    "title": "ComfyUI Full Course: Learn ComfyUI From Zero in 3 Hours (Free)",
@@ -759,30 +791,14 @@
    "score": 10
   },
   {
-   "id": "yt:vLdE4dBohUM",
+   "id": "yt:OBZDYDFay9o",
    "platform": "YouTube",
-   "title": "Qwen-Image 2.1 in Comfy UI Explained – Native 2K, Transparent PNGs & Image-to-Image",
-   "channel": "AI Ninja",
-   "channel_id": "UC8ioMZEYT8mdwyjz9DEy35Q",
-   "url": "https://www.youtube.com/watch?v=vLdE4dBohUM",
-   "published": "2026-09-29T10:55:52+00:00",
-   "description": "Qwen-Image 2.1 is here, and in this video, I take a detailed look at Qwen-Image 2.1 in Comfy UI, including its architecture, image generation, editing capabilities, native RGBA support, multi-reference inputs, native 2K generation, and how KV caching helps improve inference efficiency.\n\n✨ What I cover in this video: \n• Qwen-Image-2.1 overview  \n• Text-to-Image generation  \n• Image-to-Image editing",
-   "official": false,
-   "kind": "tutorial",
-   "software": [
-    "comfyui"
-   ],
-   "score": 10
-  },
-  {
-   "id": "yt:iiHFp57FEEo",
-   "platform": "YouTube",
-   "title": "Wan 2.2 Open Source AI Is INSANE! 🔥 Complete ComfyUI Tutorial | AI Video Generation",
-   "channel": "3D With Umar",
-   "channel_id": "UCIu6ogZhzwwLf_bZHfu2oww",
-   "url": "https://www.youtube.com/watch?v=iiHFp57FEEo",
-   "published": "2026-09-29T05:15:12+00:00",
-   "description": "Wan 2.2 is here! 🔥 In this video, I’ll show you how to get started with Wan 2.2 and use it with ComfyUI for AI video generation.\n\nWe’ll cover:\n\nWhat is Wan 2.2?\nHow to download and set up ComfyUI\nWan 2.2 model setup\nComfyUI workflow\nText-to-Video generation\nImage-to-Video generation\nPrompting for better AI videos\nBasic settings and workflow control\n\nIf you're interested in AI video generation, Com",
+   "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
+   "channel": "pixaroma",
+   "channel_id": "UCmMbwA-s3GZDKVzGZ-kPwaQ",
+   "url": "https://www.youtube.com/watch?v=OBZDYDFay9o",
+   "published": "2026-09-30T15:00:12+00:00",
+   "description": "In this ComfyUI tutorial, I’ll show you Qwen Image 2.1 with more than 20 workflows for image generation and editing.\n\nWe’ll start with text-to-image, including different image sizes, low VRAM workflows, prompt enhancement, image-to-prompt, transparent PNG generation, and Turbo LoRA workflows.\n\nThen we’ll move into image editing, where Qwen Image 2.1 really becomes interesting. I’ll show you how to",
    "official": false,
    "kind": "tutorial",
    "software": [
@@ -1175,6 +1191,22 @@
    "score": 10
   },
   {
+   "id": "yt:sqYWCISZojM",
+   "platform": "YouTube",
+   "title": "Reference to Character Sheet",
+   "channel": "Apex Artist",
+   "channel_id": "UCKf7EQhC6xHDMDpiROby2WQ",
+   "url": "https://www.youtube.com/watch?v=sqYWCISZojM",
+   "published": "2026-10-03T11:44:41+00:00",
+   "description": "Workflow : https://www.patreon.com/ApexArtist/posts/reference-to-v5-171238402\nCivitai: https://civitai.com/articles/36048/reference-to-character-sheet-v5\nX: https://x.com/ApexArtistX\n\n📩 Business & collaborations: apexartistx@gmail.com\n\nWelcome to Apex Artist — your ultimate hub for ComfyUI workflows, AI-powered creativity, and cutting-edge art generation techniques.\nWe explore the best AI tools, s",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
    "id": "yt:LZbuHM2z5Zs",
    "platform": "YouTube",
    "title": "آموزش لیپ سینک حرفه‌ای با هوش مصنوعی | ComfyUI LTX 2.5",
@@ -1209,7 +1241,7 @@
   {
    "id": "yt:TY8bAoM9jWc",
    "platform": "YouTube",
-   "title": "MiniMax H3 on Steroids Part 2: Multi-Scene Long Videos",
+   "title": "MiniMax H3 on Steroids: Hollywood Multi-Scene Long Videos",
    "channel": "The AI Brief",
    "channel_id": "UCfAQJuY0GyhZLDaVLEydOyA",
    "url": "https://www.youtube.com/watch?v=TY8bAoM9jWc",
@@ -1596,22 +1628,6 @@
    "score": 0
   },
   {
-   "id": "yt:HUX6x_XEqsE",
-   "platform": "YouTube",
-   "title": "Text-to-Image Is FINALLY Running Without a GPU! | FLUX.2 Klein 4B",
-   "channel": "MostAad",
-   "channel_id": "UCdnP51H9Nomp86WsLkF_Ufg",
-   "url": "https://www.youtube.com/watch?v=HUX6x_XEqsE",
-   "published": "2026-09-20T10:34:25+00:00",
-   "description": "**FLUX.2 Klein 4B is FINALLY running without a GPU!**\n\nIn this video, I’m showcasing my new updated nodes for **FLUX.2 Klein 4B GGUF ComfyUI workflow**, including the new CPU execution options that allow you to run text-to-image generation even without a GPU.\n\nThe project was originally designed to make **FLUX.2 Klein 4B GGUF** practical on low-VRAM GPUs through memory staging. With the updated ve",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:In4y9O0ANTE",
    "platform": "YouTube",
    "title": "SIGGRAPH 26 Encore: Gaussian Splat to Comp: XGRIDS I Grendel GS I Virtual Studio I Volinga I Nuke",
@@ -1657,6 +1673,22 @@
    "kind": "other",
    "software": [
     "silhouette"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:3iTNtbfD6_g",
+   "platform": "YouTube",
+   "title": "This ComfyUI Model is way better than Nano Banana",
+   "channel": "Json ",
+   "channel_id": "UC_lvBZvh1rsqSOvGPjJNaHA",
+   "url": "https://www.youtube.com/watch?v=3iTNtbfD6_g",
+   "published": "2026-09-11T14:23:43+00:00",
+   "description": "Krea 2 vs Nano Banana: this free ComfyUI workflow makes AI influencer images look way more realistic. In this Krea 2 tutorial I show you the complete AI influencer workflow inside ComfyUI, built with our own custom nodes, with real 4K output, an auto prompter that writes your Krea 2 prompt from a few reference images, and an eye detailer that fixes the one thing every AI image model gets wrong. If",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
    ],
    "score": 0
   },
