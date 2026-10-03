@@ -70,10 +70,18 @@ channels:
     official: true
     trust_all: true
     software: [comfyui]
-  # Add creators like this:
-  # - name: Some Creator
-  #   channel_id: UCxxxxxxxxxxxxxxxxxxxxxx
-  #   software: [nuke]
+  # ---- Nuke creators (each verified active; keyword matching still applies) ----
+  - { name: "Hugo's Desk", channel_id: UCv-7AV9139ZwlwTHiBwS-JQ, software: [nuke] }
+  - { name: Cvfx_creative_space, channel_id: UCkXrHqWQykZY_ppPB5YEPIQ, software: [nuke] }
+  - { name: GraphicsInspire, channel_id: UCMLF17ZTu-clUXEmOu06LFQ, software: [nuke] }
+  - { name: VFX Healing, channel_id: UCNmMfGayZFNhGbxIWXWYQ7g, software: [nuke] }
+  - { name: Uncanny Danny VFX, channel_id: UCS2L2hvdkw427bkMaAaeoUg, software: [nuke] }
+  - { name: VFX SHOWDOWN, channel_id: UCpDZCTkveqFBIRts8qvwGBw, software: [nuke, comfyui] }
+  - { name: CGWeave, channel_id: UC4MmNJU0wA4mtlSRu6C_7PQ, software: [nuke] }
+  - { name: CenterGrid, channel_id: UCYgG0jqIRyJZYEzLorWEr_Q, software: [nuke] }
+  - { name: The Gnomon Workshop, channel_id: UCze69pfIVefPW41h65eh8lQ, software: [nuke] }
+  # Add more creators the same way:
+  # - { name: Some Creator, channel_id: UCxxxxxxxxxxxxxxxxxxxxxx, software: [nuke] }
 
 # ---- Targeted searches (need YOUTUBE_API_KEY; each costs 100 API quota units) -
 searches:

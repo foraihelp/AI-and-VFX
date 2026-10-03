@@ -56,7 +56,7 @@ class Settings:
     summaries: str = "description"        # "description" or "off"
     max_items_per_software: int = 15
     include_shorts: bool = False
-    feed_days: int = 30
+    feed_days: int = 90
     feed_path: Path = BASE_DIR / "state" / "feed.json"
     state_path: Path = BASE_DIR / "state" / "seen.json"
     sources_path: Path = BASE_DIR / "config" / "sources.yaml"
@@ -99,7 +99,7 @@ class Settings:
             summaries=summaries,
             max_items_per_software=_int(g("MAX_ITEMS_PER_SOFTWARE"), 15, "MAX_ITEMS_PER_SOFTWARE", 1),
             include_shorts=_bool(g("INCLUDE_SHORTS"), False),
-            feed_days=_int(g("FEED_DAYS"), 30, "FEED_DAYS", 1),
+            feed_days=_int(g("FEED_DAYS"), 90, "FEED_DAYS", 1),
             email_provider=provider,
             email_to=g("EMAIL_TO"),
             email_from=g("EMAIL_FROM"),
