@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-19T14:15:15+00:00",
+ "generated_at": "2026-10-20T12:28:30+00:00",
  "window_days": 90,
  "software": [
   {
@@ -359,6 +359,70 @@
    "score": 25
   },
   {
+   "id": "yt:K5zD_af-Tag",
+   "platform": "YouTube",
+   "title": "MOSS Image ComfyUI Tutorial - Simple, Easy Workflow To Get Started Quickly",
+   "channel": "Patrick Sheedy",
+   "channel_id": "UCAMOUH9fMQWEBsiZrK7wvfw",
+   "url": "https://www.youtube.com/watch?v=K5zD_af-Tag",
+   "published": "2026-10-20T11:00:10+00:00",
+   "description": "Written guide with all links:\n👉 https://patricksheedy.com/posts/moss-image/\n\nLearn how to set up and run the new MOSS-Image text-to-image model locally in ComfyUI using a clean, simplified workflow. \n\nIn this video, I walk through where to place all required models, how to use the basic workflow without confusing subgraphs, configuring Skip Layer Guidance, and using an LLM prompt enhancer to get t",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:IbW-vNMaQLE",
+   "platform": "YouTube",
+   "title": "LTX-2.5 LipSync Audio to Video (Part 3) | Get the ComfyUI Workflow on 16GB Mac Mini | Last Video",
+   "channel": "AI WITH JS DEV",
+   "channel_id": "UC-MPMySuxsGQaAfKoQ_O66w",
+   "url": "https://www.youtube.com/watch?v=IbW-vNMaQLE",
+   "published": "2026-10-20T09:26:09+00:00",
+   "description": "In this final part of my LTX-2.5 LipSync series, I walk through the ComfyUI workflow for turning audio into a lip-synced video using local AI on an Apple Silicon Mac mini with just 16GB unified memory.\n\n🎬 What you'll learn\n\nHow the LTX-2.5 LipSync audio-to-video workflow fits together\nUnderstanding the ComfyUI node workflow\nConnecting audio processing with video generation\nRunning local AI video g",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:gMlFU9MMryc",
+   "platform": "YouTube",
+   "title": "MiniMax H3 ComfyUI Workflow: The Best Balance of Speed & Quality",
+   "channel": "CongZ AI",
+   "channel_id": "UC-cnG73vSSPdo--pmIG1E2w",
+   "url": "https://www.youtube.com/watch?v=gMlFU9MMryc",
+   "published": "2026-10-19T18:38:02+00:00",
+   "description": "#comfyui #comfyuitutorial #minmaxh3 #workflow",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:949qxjckUyI",
+   "platform": "YouTube",
+   "title": "FLUX 3 Klein 洗图神器！5合1 ComfyUI Workflow｜去AI味、保真重绘、局部精修、画质对比",
+   "channel": "AI-KSK",
+   "channel_id": "UC-DkD5jRo7n8fSI00Q72MQQ",
+   "url": "https://www.youtube.com/watch?v=949qxjckUyI",
+   "published": "2026-10-19T17:51:53+00:00",
+   "description": "【本期工作流】\n\nRunningHub 注册入口，填写邀请码 rh-v1111 可领取 1000RH币：\nhttps://www.runninghub.ai/?inviteCode=rh-v1111\n\nAI-KSK RunningHub 工作流主页：\nhttps://www.runninghub.ai/user-center/1892566146468511746?inviteCode=rh-v1111\n\nFLUX 3 Klein｜4K智能高清放大·RunningHub云端ZIP自动批量版: https://www.runninghub.ai/zh-cn/post/2112077292083163137?inviteCode=rh-v1111\n\n工作流：FLUX 3 Klein｜4K放大·高清修复 体验地址：https://www.runninghub.ai/zh-cn/post/2112",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
    "id": "yt:DUX5lCcBNBA",
    "platform": "YouTube",
    "title": "ComfyUI Face Swap with ReActor: Install, Build the Workflow, Fix Blurry Faces (2026)",
@@ -375,38 +439,6 @@
    "score": 15
   },
   {
-   "id": "yt:gFMvFSU2A0Q",
-   "platform": "YouTube",
-   "title": "FLUX 3 Image Klein in ComfyUI: Full Tutorial & Workflow",
-   "channel": "ComfyUI Workflow Blog",
-   "channel_id": "UCENpHj4RqKfxaAGbiDp0QAA",
-   "url": "https://www.youtube.com/watch?v=gFMvFSU2A0Q",
-   "published": "2026-10-18T13:37:34+00:00",
-   "description": "FLUX 3 Image Klein in ComfyUI creates detailed environments and offers some impressive image-editing tools, but how well does it handle faces and hands?\n\nI tested the distilled and base models, prompt upsampler, different resolutions, and my own ComfyUI workflow to see what actually works and what still needs improvement.\n\nI started with text-to-image generation and compared short prompts with det",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
-   "id": "yt:Zs7BW4pp21E",
-   "platform": "YouTube",
-   "title": "🚀 Just a few of the many improvements in OBVPM Workflow 007",
-   "channel": "Beyond Frame AI",
-   "channel_id": "UCzJxMFmmCxIJ1fXFpgWTMhg",
-   "url": "https://www.youtube.com/watch?v=Zs7BW4pp21E",
-   "published": "2026-10-18T07:46:29+00:00",
-   "description": "🚀 Just a few of the many improvements in OBVPM Workflow 007:\n\n✂️ Video trimming\n🖥️ Preview windows\n🔧 Upscaling fix for trimmed clips\n\n\nObvpm new wokflow version 007:\nhttps://github.com/chanon/comfyui-obvpm-timeline/blob/main/workflows/h3_obvpm_timeline_r2v_v0.1.4-007A.json\n\nVAE (preview):\nhttps://github.com/madebyollin/taehv/blob/main/safetensors/taeh3.safetensors\n\n…and much more! at :\nhttps://www",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
    "id": "yt:UgPTDnBECVA",
    "platform": "YouTube",
    "title": "Install Custom Nodes Safely in ComfyUI | Lesson 42 of 50",
@@ -415,22 +447,6 @@
    "url": "https://www.youtube.com/watch?v=UgPTDnBECVA",
    "published": "2026-10-18T01:35:22+00:00",
    "description": "A custom node is Python code that runs on your computer every time ComfyUI starts. So choose with care.\nThe full course, all 50 lessons: https://forgebun.com/go/yt_cc42\n\nThree ways to install, using ComfyUI's own Python, and what to ask before you install.\n\nChapters\n0:00 Lesson 42: Installing Custom Nodes Safely\n0:17 Manager first\n0:34 Read requirements\n0:45 Use ComfyUI's own Python\n0:55 The class",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
-   "id": "yt:-8mKHVCsoBU",
-   "platform": "YouTube",
-   "title": "FLUX 3 Klein: t2i, multi-reference image editing, and bounding-box edits—in one unified workflow.",
-   "channel": "Vantage with AI",
-   "channel_id": "UC18hamBV4a3ibIVsr3WkwWg",
-   "url": "https://www.youtube.com/watch?v=-8mKHVCsoBU",
-   "published": "2026-10-17T23:29:39+00:00",
-   "description": "FLUX 3 Klein in ComfyUI: text-to-image generation, multi-reference image editing, and bounding-box local edits—all in one unified workflow.\n\nThis tutorial covers model downloads, installation, and workflow controls, followed by practical tests using the Distilled INT8 ConvRot model with Prompt Enhancer enabled.\n\nWe test portraits, double-exposure compositions, text rendering, clothing and accessor",
    "official": false,
    "kind": "workflow",
    "software": [
@@ -681,6 +697,86 @@
    "score": 15
   },
   {
+   "id": "yt:kZRb9yeaHbQ",
+   "platform": "YouTube",
+   "title": "Watch This Before Any ComfyUI Tutorial (Beginner to Advanced)",
+   "channel": "CG Astonish  ",
+   "channel_id": "UCF0hk5qkKPlLg9RzB_IqrIA",
+   "url": "https://www.youtube.com/watch?v=kZRb9yeaHbQ",
+   "published": "2026-10-20T10:42:24+00:00",
+   "description": "Watch this before any ComfyUI tutorial.\n\nComfyUI looks confusing at first, but most of it comes down to a few basics that tutorials skip. In this video I cover everything you need to know so you can follow beginner, mid, or advanced workflows without getting lost.\n\nYou’ll learn how to install ComfyUI, download models and put them in the right folders, load and use any workflow, fix missing nodes, ",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:hR0K3_HwCJY",
+   "platform": "YouTube",
+   "title": "ComfyUI | Seria: Odcinek 88 – Fish-Audio-Drama-3: NIESAMOWICIE ekspresyjny model TTS! 🎤🤯 (Tutorial)",
+   "channel": "Z Głębi Umysłu",
+   "channel_id": "UCAv3Rdh7No4IxYBexJTBGEA",
+   "url": "https://www.youtube.com/watch?v=hR0K3_HwCJY",
+   "published": "2026-10-20T06:26:25+00:00",
+   "description": "🧩 Witajcie, moi drodzy, w osiemdziesiątym ósmym odcinku serii poradników poświęconych środowisku ComfyUI. Dzisiaj zaprezentuję Wam Fish Audio Drama 3 czyli model TTS, który pozwala klonować głosy i generować wypowiedzi pełne emocji. Pokażę Wam, jak uruchomić go lokalnie, przygotować własne głosy, sterować emocjami oraz tworzyć dialogi z udziałem kilku postaci. Sprawdzimy również jego możliwości, w",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:6LbxX0HA9sc",
+   "platform": "YouTube",
+   "title": "FLUX 3 Can Do ALL This? The Complete ComfyUI Guide",
+   "channel": "James Doss AI ",
+   "channel_id": "UCTjWI2m6Xgc4PSl2F4M3ocQ",
+   "url": "https://www.youtube.com/watch?v=6LbxX0HA9sc",
+   "published": "2026-10-20T03:51:59+00:00",
+   "description": "The FLUX 3 Klein Ultimate Guide: build one local ComfyUI setup for image generation, image-to-image editing, multi-reference scenes and bounding-box layout control.\n\nFollow the ultimate guide from your first image to character edits, product ads, generated text, restoration and a native 3840 x 2160 run. We use a 41-workflow library with a combined canvas and individual files, and keep the failed r",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:jRbuYle-0nc",
+   "platform": "YouTube",
+   "title": "Cara Install ComfyUI Terbaru 2026 di Windows | Tutorial Pemula",
+   "channel": "Frihandhika",
+   "channel_id": "UCgSfEuMPQ-BxylQroCeRMHQ",
+   "url": "https://www.youtube.com/watch?v=jRbuYle-0nc",
+   "published": "2026-10-20T00:57:27+00:00",
+   "description": "🚀 Cara Install ComfyUI Terbaru 2026 di Windows | Tutorial ComfyUI untuk Pemula\n\nIngin belajar ComfyUI untuk membuat gambar dan video menggunakan AI? Di tutorial ini, kita akan membahas cara download, install, dan menjalankan ComfyUI di PC atau laptop Windows, mulai dari proses instalasi hingga pengenalan interface dan template AI workflow.\n\nTutorial ComfyUI bahasa Indonesia ini cocok untuk pemula ",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:cDgWH-huANI",
+   "platform": "YouTube",
+   "title": "MOSS-Image AI Model Showcase -  ComfyUI Tutorial | Free Kaggle Notebook",
+   "channel": "Eye For AI",
+   "channel_id": "UCmRg6NJrBxl8GWHv0DzYSiw",
+   "url": "https://www.youtube.com/watch?v=cDgWH-huANI",
+   "published": "2026-10-19T14:34:08+00:00",
+   "description": "Ready to explore a new AI image generation model? 👀 In this video, we're putting **MOSS-Image** to the test and exploring what this new AI model can create!\n\nFrom cinematic visuals and photorealistic images to creative compositions and AI-generated text, we're showcasing the possibilities of MOSS-Image and seeing how it performs in real-world creative workflows.\n\nMOSS-Image is an open image-genera",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
    "id": "yt:_sjVPd47Ol0",
    "platform": "YouTube",
    "title": "FLUX 3 Klein in ComfyUI: Full Guide & Real Tests",
@@ -741,6 +837,22 @@
    "kind": "tutorial",
    "software": [
     "mocha"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:WwdD-5WYeUw",
+   "platform": "YouTube",
+   "title": "Numonic - How to setup and use the Numonic Comfy node",
+   "channel": "Numonic",
+   "channel_id": "UCstWlNOaXFl18Y5Ud1jeXMg",
+   "url": "https://www.youtube.com/watch?v=WwdD-5WYeUw",
+   "published": "2026-10-05T16:41:50+00:00",
+   "description": "How to set up the Numonic node in ComfyUI so your generations save straight to Numonic.\n\n---\nNumonic is a memory layer for AI-generated creative work — capturing prompt, workflow and metadata automatically so nothing gets lost between tools, sessions or people.\n\n🔗 Try Numonic: https://www.numonic.ai/sign-up?utm_source=youtube&utm_medium=organic-social&utm_content=channel-description-default\n🌐 numo",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
    ],
    "score": 10
   },
@@ -1081,6 +1193,102 @@
    "score": 10
   },
   {
+   "id": "yt:HYw1IIwItRo",
+   "platform": "YouTube",
+   "title": "Flux 3 Klein vs Moss Image vs Krea 2 vs Qwen 2.1 — Who Wins?!",
+   "channel": "Ok Todd AI",
+   "channel_id": "UCTR0YPSfZAu4iJoRpWOMTnQ",
+   "url": "https://www.youtube.com/watch?v=HYw1IIwItRo",
+   "published": "2026-10-20T11:00:31+00:00",
+   "description": "Comparing Flux 3 Klein against Moss Image, Krea 2, and Qwen 2.1 to see which model performs best for your specific projects.\n\nI put these four models through a series of tests using a standard ComfyUI workflow. We look at varied subjects ranging from sci-fi thriller concepts and character posing to food photography and retail storefronts to see how they handle different visual styles.\n\nIf you are ",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:oAOzwiDFCcY",
+   "platform": "YouTube",
+   "title": "4 Steps Lora For Moss Image + flux 2 klein 9b | ComfyUI Live Stream",
+   "channel": "Bhanu Khan",
+   "channel_id": "UCqBvyhpmcEoQmMMK7QXH2Bw",
+   "url": "https://www.youtube.com/watch?v=oAOzwiDFCcY",
+   "published": "2026-10-20T07:10:50+00:00",
+   "description": "Model\nhttps://huggingface.co/Comfy-Org/MOSS-Image\n\n4 Steps\nhttps://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps\n\nWorkflow \nhttps://huggingface.co/axiomgraph/Live_Stream_workflows",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:7VBNxnPPKCM",
+   "platform": "YouTube",
+   "title": "ComfyUI: Build Reproducible AI Workflows",
+   "channel": "CLI Stack",
+   "channel_id": "UC8oGJUnTu5_-byJPdntiQsQ",
+   "url": "https://www.youtube.com/watch?v=7VBNxnPPKCM",
+   "published": "2026-10-20T04:59:31+00:00",
+   "description": "A practical, repo-grounded guide to ComfyUI node-graph workflows, local setup, models, execution, API usage, and reproducibility.\n\nRepo: https://github.com/Comfy-Org/ComfyUI\n\nChapters:\n00:00 The problem and the idea\n01:49 What ComfyUI contains\n04:49 Install and prepare models\n07:49 Run and understand a workflow\n10:10 Extensions and automation\n13:49 Reliable workflows and recap\n15:00 Like, comment,",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:P0DOkWCxTCc",
+   "platform": "YouTube",
+   "title": "AI Music Video Production with MiniMax × ComfyUI",
+   "channel": "n's labs",
+   "channel_id": "UCYH538-OKpolgLRFshbhScQ",
+   "url": "https://www.youtube.com/watch?v=P0DOkWCxTCc",
+   "published": "2026-10-19T23:09:38+00:00",
+   "description": "This project started with a simple goal: to create a two-minute music video using locally generated AI video with MiniMax.\n\n1. Building a Visual Planning Workflow\n\nThe first step was to utilize a previously developed reference-based image generation workflow combining Qwen3-VL and Qwen Image 2.1.\n\nUsing ComfyUI, I built a system that independently analyzes and describes different visual references",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:JRjI7LLwz2Y",
+   "platform": "YouTube",
+   "title": "Kroma: Fine-Tuned Krea 2 Model in ComfyUI | Kroma vs Krea 2 Test",
+   "channel": "The Ai Blueprint",
+   "channel_id": "UCJEi1eXvBISn2fya1PAcNRg",
+   "url": "https://www.youtube.com/watch?v=JRjI7LLwz2Y",
+   "published": "2026-10-19T15:00:59+00:00",
+   "description": "🚀 Kroma: A Fine-Tuned Krea 2 Model in ComfyUI!\n\n\n━━━━━━━━━━━━━━━━━━━━\n\n🔗 RESOURCES & LINKS\nModel / FREE Workflow: https://www.patreon.com/posts/172806631?utm_campaign=postshare_creator&utm_content=android_share\n\n━━━━━━━━━━━━━━━━━━━━\n\nIn this video, we're testing Kroma, a fine-tuned version of Krea 2, inside ComfyUI! I'll explore how Kroma performs for AI image generation and compare its results wi",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:vpT6l3VHK18",
+   "platform": "YouTube",
+   "title": "I Gave This AI Character a Whole New Life (FLUX 3)",
+   "channel": "James Doss AI ",
+   "channel_id": "UCTjWI2m6Xgc4PSl2F4M3ocQ",
+   "url": "https://www.youtube.com/watch?v=vpT6l3VHK18",
+   "published": "2026-10-19T15:00:07+00:00",
+   "description": "I gave this AI character a whole new life with FLUX 3 Klein in ComfyUI—changing her hair color, clothing colors and background from a neutral studio image to a copper-haired beach look.\n\nFour reference images still miss one key request: copper hair. In this local AI image-editing tutorial, we inspect that conflict, correct the character reference and rebuild the scene with the beach guiding the co",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
    "id": "yt:rAw1zsz3hM8",
    "platform": "YouTube",
    "title": "Make a Long, Continuous AI Film in ComfyUI | RefMod + OBVPM",
@@ -1161,38 +1369,6 @@
    "score": 0
   },
   {
-   "id": "yt:k4NNqtUy4_c",
-   "platform": "YouTube",
-   "title": "Animación con ComfyUI 🚀 Cómo Mejorar la CALIDAD de tus Clips con IA",
-   "channel": "Nichonauta",
-   "channel_id": "UCz6Mu2Iv4-gitXurg9amisw",
-   "url": "https://www.youtube.com/watch?v=k4NNqtUy4_c",
-   "published": "2026-10-19T05:30:03+00:00",
-   "description": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=SjEaGoRt-gY\n\nAprende cómo mejorar la calidad de tus clips de vídeo mediante la animación con ComfyUI y el uso de herramientas de inteligencia artificial avanzadas. En este tutorial, exploramos cómo optimizar el proceso de generación de vídeo para evitar errores de archivos y cómo elevar el resultado final mediante té",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:hwxoto6lXx4",
-   "platform": "YouTube",
-   "title": "Generar Texto a Vídeo con IA 🚀 Guía para Crear Clips Rápidos y Ligeros en ComfyUI",
-   "channel": "Nichonauta",
-   "channel_id": "UCz6Mu2Iv4-gitXurg9amisw",
-   "url": "https://www.youtube.com/watch?v=hwxoto6lXx4",
-   "published": "2026-10-19T05:00:07+00:00",
-   "description": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=SjEaGoRt-gY\n\nAprende a generar texto a vídeo con IA de forma extremadamente rápida y eficiente utilizando ComfyUI. En este tutorial, te enseño cómo configurar un workflow optimizado para crear clips ligeros utilizando modelos cuantizados que ahorran espacio y recursos sin sacrificar la calidad visual.\n\nEn este video ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:gAJ8kMr_HPU",
    "platform": "YouTube",
    "title": "Generar Video con IA 🎬 Cómo usar Modelos Ligeros en ComfyUI",
@@ -1201,22 +1377,6 @@
    "url": "https://www.youtube.com/watch?v=gAJ8kMr_HPU",
    "published": "2026-10-19T04:30:35+00:00",
    "description": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=SjEaGoRt-gY\n\nAprende a generar video con IA utilizando modelos ligeros en ComfyUI para optimizar tus flujos de trabajo. En este video exploramos el uso de modelos más pequeños y rápidos, como el modelo Cell Forcing, analizando si realmente merece la pena sacrificar calidad por velocidad al procesar clips de video.\n\nD",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:5VonhgWF2nI",
-   "platform": "YouTube",
-   "title": "Cómo usar FLUX 2 🚀 Generar Imágenes Rápidas con ComfyUI y LLM",
-   "channel": "Nichonauta",
-   "channel_id": "UCz6Mu2Iv4-gitXurg9amisw",
-   "url": "https://www.youtube.com/watch?v=5VonhgWF2nI",
-   "published": "2026-10-19T03:30:38+00:00",
-   "description": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=SjEaGoRt-gY\n\nAprende cómo usar FLUX 2 para generar imágenes de forma increíblemente rápida dentro de ComfyUI. En este tutorial, exploraremos cómo integrar este modelo con un LLM para optimizar la creación de prompts y mejorar la calidad de los resultados visuales.\n\nDescubrirás cómo configurar flujos de trabajo (workf",
    "official": false,
    "kind": "other",
    "software": [
@@ -1265,102 +1425,6 @@
    "url": "https://www.youtube.com/watch?v=8jSk5gqf9Hc",
    "published": "2026-10-18T15:12:48+00:00",
    "description": "Показываю, как установить Pinokio и запустить ComfyUI на Windows, открыть workflow для генерации видео, написать prompt и отправить задачу в очередь.\n\nОфициальные ссылки:\nPinokio: https://pinokio.co/\nComfyUI: https://www.comfy.org/\nПримеры workflow Wan для ComfyUI: https://comfyanonymous.github.io/ComfyUI_examples/wan/\n\nДля генерации нужна видеокарта NVIDIA и свободное место на SSD. 8 ГБ видеопамя",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:-R0q_NJWDmI",
-   "platform": "YouTube",
-   "title": "ComfyUI без боли: бесплатные AI-видео на своём ПК с помощью Codex и Minimax H3",
-   "channel": "FlashMovieAI",
-   "channel_id": "UCa4-DzRXobidyHig4xlxJrw",
-   "url": "https://www.youtube.com/watch?v=-R0q_NJWDmI",
-   "published": "2026-10-18T13:22:26+00:00",
-   "description": "🎬 Как генерировать видео бесплатно на своём компьютере, не разбираясь в каждой ноде ComfyUI? Подключаем Codex через MCP и поручаем ему техническую часть. Мы объясняем идею своими словами, а ИИ-агент помогает собрать workflow, настроить генерацию и улучшить результат.\n\nПоказываю всё на трёх примерах: заменяем людей на Сашу Белого и Данилу, меняем котов в видео и создаём мультяшную сцену по одной ка",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:Xeyb0Y9bvho",
-   "platform": "YouTube",
-   "title": "MiniMax H3 Long Videos in ComfyUI Retake Any Chunk, Keep the Rest",
-   "channel": "Stuubzzz Creative Studios",
-   "channel_id": "UCw4baiEOwH_nubr870eHK1Q",
-   "url": "https://www.youtube.com/watch?v=Xeyb0Y9bvho",
-   "published": "2026-10-18T13:16:44+00:00",
-   "description": "Master MiniMax H3 long video production with the new Stubelius Ultimate H3 0.13 workflow for ComfyUI.\n\nThis update adds a four-window app-like interface to your ComfyUI workflow, giving you full control over your production pipeline. You can now hunt and retake specific chunks without needing to re-render your entire project, saving significant time during the refinement process.\n\nWhether you are ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:PHfWe-GEiAE",
-   "platform": "YouTube",
-   "title": "MiniMax H3 Is Now an Image Model — Text-to-Image & Editing in ComfyUI",
-   "channel": "AI Jigyasa",
-   "channel_id": "UCMxer7S9TS4bqb01oNz48Cw",
-   "url": "https://www.youtube.com/watch?v=PHfWe-GEiAE",
-   "published": "2026-10-18T12:30:19+00:00",
-   "description": "In this video, I'll show you how to use MiniMax H3 as an image model in ComfyUI, for both text-to-image and image editing. The Fizgig H3 Still node pack creates a true single-frame latent and decodes it cleanly, so H3 gives you strong compositions as stills. You can then upscale them with any image model you like. I'll also cover the turbo LoRAs and community H3 models for faster results.\n\nFeaturi",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:4QAgeKYfBnU",
-   "platform": "YouTube",
-   "title": "FINALLY Good AI Texturing Locally on 6GB VRAM (Free)",
-   "channel": "PixelArtistry",
-   "channel_id": "UCRGb8yCnI5-upL3hT4oiOZw",
-   "url": "https://www.youtube.com/watch?v=4QAgeKYfBnU",
-   "published": "2026-10-18T12:03:04+00:00",
-   "description": "📦I'm currently building a Trellis2 + Pixal3D Workflow Pack — an in-depth PDF guide + ComfyUI workflows for local, open-source 3D AI generation. Join the waitlist for early-bird pricing:  https://pixel-artistry.com/Trellis2WorkflowPackWaitlist\n\n🎵 Win up to $100K in cash prizes for the world's catchiest AI-made ad!\nThis video is sponsored by ElevenCreative by ElevenLabs.\nInvent a fictional product, ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:JO9PtE_ZlHI",
-   "platform": "YouTube",
-   "title": "내 PC로 AI 영화 만들기｜생성 요금 0원!  #ComfyUI #MiniMaxH3 #AI영상 #AI영화 #영상제작 #로컬AI #AI공부 #워크플로 #K2전차",
-   "channel": "AI의 모든 것",
-   "channel_id": "UCL2M-NAn1hE5EMi8vhvTrhw",
-   "url": "https://www.youtube.com/watch?v=JO9PtE_ZlHI",
-   "published": "2026-10-18T10:03:09+00:00",
-   "description": "질주하던 K2 전차가 로봇으로 변신한다면?\n아이디어를 내 PC에서 영상으로 만들어 봤습니다.\n\nComfyUI와 MiniMax H3를 활용해 영상과 사운드를 생성하고,\n장면을 이어 하나의 짧은 영화로 완성했습니다.\n\n이번 영상에서는 실제 제작에 사용한 모델, Turbo LoRA,\n샘플링 설정과 워크플로를 소개합니다.\n\n🎁 AI 공부의 시행착오를 줄여드리기 위해\n설정·세팅 방법·워크플로·프롬프트·AI 작업 스킬을 무료로 공유합니다.\n\n좋아요를 누르고 댓글에 자료를 받을 이메일 주소를 남겨 주세요.\n※ 댓글에 남긴 이메일 주소는 다른 사람에게도 공개됩니다.\n\n‘생성 요금 0원’은 유료 생성 서비스의 건당 요금이 없다는 의미입니다.\n호환 GPU, 저장 공간과 전기 비용은 필요하며,\nPC 사양에 따라 생성 시간과 결",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:zlRzerQT5mA",
-   "platform": "YouTube",
-   "title": "I Built a DeepSeek Harness Plugin That Lets Qwen 27B Direct H3 (All Local)",
-   "channel": "Tao of AI",
-   "channel_id": "UCRz6WE9zrC1Ul8cuU3bvr3g",
-   "url": "https://www.youtube.com/watch?v=zlRzerQT5mA",
-   "published": "2026-10-18T05:01:51+00:00",
-   "description": "DeepSeek Harness meets Qwen3.8-27B and MiniMax H3! 🚀 An ALL-LOCAL AI filmmaking workflow powered by ComfyUI.\n\nI built a custom DeepSeek Harness plugin that turns a local 27B AI model into an AI film director, capable of planning storyboards, controlling ComfyUI workflows, and bringing a short film to life.\n\n🎬 **The Demo**\n\nIn this episode, Qwen3.8-27B directs a 50-second comedy short featuring Tao",
    "official": false,
    "kind": "other",
    "software": [
@@ -1433,22 +1497,6 @@
    "score": 0
   },
   {
-   "id": "yt:mrUdw88IWH8",
-   "platform": "YouTube",
-   "title": "ComfyUI 입문 강좌 요약 정리 | 설치부터 KSampler까지 15강 학습 로드맵",
-   "channel": "Deno",
-   "channel_id": "UCbxWV6MF3RLTbY3AR-9Jukw",
-   "url": "https://www.youtube.com/watch?v=mrUdw88IWH8",
-   "published": "2026-10-17T15:20:30+00:00",
-   "description": "ComfyUI, 깊게 공부하지 않아도 됩니다. 순서만 알면 됩니다. 입문 강의 15편을 설치부터 기본 개념까지 한 번에 따라올 수 있게 정리했습니다.\n\n1편 데스크탑 설치로 시작해 AI 에이전트로 오류를 고치고, 무작정 따라 하며 사진을 한 장 먼저 만들어 봅니다. 그다음 LoRA와 슬라이더 LoRA, 5대 노드와 KSampler, 공식 템플릿 3부작(이미지·동영상·오디오)으로 이어집니다. 많은 형님들이 가장 마음에 든다고 해 주신 슬라이더 LoRA도 이 순서 안에 있습니다.\n\n오류는 Claude나 Codex 같은 AI 에이전트에게 맡기고, 이해가 안 되는 파라미터는 AI에게 물어보면 됩니다. 이제는 정보가 부족한 것이 아니라 의지의 차이입니다.\n\n▶ ComfyUI 입문 가이드 학습 프로그램 (15편)\nht",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:Tgc9ihADeAs",
    "platform": "YouTube",
    "title": "ComfyUI ENDLICH meistern! 🔥 Modelle, Workflows & Video-KI (Teil 2)",
@@ -1457,22 +1505,6 @@
    "url": "https://www.youtube.com/watch?v=Tgc9ihADeAs",
    "published": "2026-10-16T16:00:39+00:00",
    "description": "ComfyUI läuft – aber bei fremden Workflows, fehlenden Nodes, Modellen, VRAM-Problemen oder Video-KI wird es plötzlich kompliziert? Genau da setzt Teil 2 meines ComfyUI-Tutorials an.\n\nIch zeige dir, wie du Modelle richtig installierst, Workflows aus dem Internet importierst und reparierst, komplexe Node-Graphen wirklich verstehst und Video-Workflows sinnvoll zwischen Draft und Final optimierst. Daz",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:yqZMfJLwgGo",
-   "platform": "YouTube",
-   "title": "มาแล้ว! FLUX 3 Klein บน ComfyUI 🔥 สร้าง + แก้ไขภาพไม่ถึง 10 วินาที เร็วจัด!",
-   "channel": "Ton Like IT",
-   "channel_id": "UCXUpwJe2khG3H5LKQ7Po1QQ",
-   "url": "https://www.youtube.com/watch?v=yqZMfJLwgGo",
-   "published": "2026-10-16T14:18:40+00:00",
-   "description": "มาแล้ว! FLUX 3 Klein บน ComfyUI 🔥 สร้าง + แก้ไขภาพไม่ถึง 10 วินาที เร็วจัด!\n\nคลิปนี้พาทุกคนมาลองใช้งาน FLUX.3 Klein ผ่าน ComfyUI ทั้งการสร้างภาพจากข้อความ (Text to Image) และการแก้ไขภาพด้วย AI (Image Editing) ใน Workflow ที่ใช้งานได้สะดวกและรวดเร็ว ⚡\n\nใครที่กำลังมองหาเครื่องมือ AI สำหรับสร้างภาพ แก้ไขภาพ หรืออยากพัฒนา Workflow บน ComfyUI ให้ทำงานได้ไวขึ้น คลิปนี้ห้ามพลาด!\n\n✨ สิ่งที่จะได้เรียนรู้ใน",
    "official": false,
    "kind": "other",
    "software": [
@@ -1505,6 +1537,22 @@
    "url": "https://www.youtube.com/watch?v=cxqLJoUEZVY",
    "published": "2026-10-15T16:03:50+00:00",
    "description": "Learn how to set up MiniMax H3 in ComfyUI for native video and audio generation. No cloud APIs, no subscription fees—everything runs locally on your hardware. We walk through installation, model setup, and a complete generation workflow.\n\n🔧 The exact gear I run: https://runbaremetal.com/gear/\n📖 Full written builds & guides: https://runbaremetal.com/guides/\n📺 Subscribe — self-hosting in under a min",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:DQ0cbDJWlNw",
+   "platform": "YouTube",
+   "title": "Start creating professional AI videos and workflows with RunningHub today",
+   "channel": "Tech Scope",
+   "channel_id": "UC1oERpJgiL-eRahicn4hkFQ",
+   "url": "https://www.youtube.com/watch?v=DQ0cbDJWlNw",
+   "published": "2026-10-15T14:00:38+00:00",
+   "description": "🚀 RunningHub AI: https://www.runninghub.ai?inviteCode=i3d2selc\n\n👉 Hey guys! I recently came across a really useful AI image and video generation tool called RunningHub! It features Infinite Canvas, Quick Generation, and ComfyUI, letting you easily combine AI apps, workflows, and generation tasks all in one place.\n\n#RunningHub #AIVideo #Seedance25 #ComfyUI\n\nIn this video, I take a look at RunningHu",
    "official": false,
    "kind": "other",
    "software": [
@@ -1594,14 +1642,14 @@
    "score": 0
   },
   {
-   "id": "yt:3FiSReY1lms",
+   "id": "yt:Aq8t9eaqbTg",
    "platform": "YouTube",
-   "title": "Resolva AGORA Seus Problemas de Resolução no ComfyUI!",
-   "channel": "Lyonir Studio",
-   "channel_id": "UCNuBLLsvUCNQidMvbzJjMcg",
-   "url": "https://www.youtube.com/watch?v=3FiSReY1lms",
-   "published": "2026-10-05T15:00:19+00:00",
-   "description": "Chega de dor de cabeça com resolução no ComfyUI. 🐺\nAgora você pode definir a resolução exata que deseja e exportar seus vídeos mantendo essas dimensões, além de utilizar outros nodes desenvolvidos para deixar seu fluxo de trabalho no ComfyUI muito mais rápido, organizado e prático.\n\nNeste vídeo, vou mostrar como funcionam o Lyonir Resolution, Lyonir Sampler e outros Custom Nodes do pack da Lyonir ",
+   "title": "AI 이미지의 포즈를 마음대로 바꾼다! Qwen-Image 2.1 + 3D Pose | ComfyUI 완벽 가이드 Part.69",
+   "channel": "조피디 연구소 JoPD LAB",
+   "channel_id": "UCuCzulk9kEH8e97QFF6YBfQ",
+   "url": "https://www.youtube.com/watch?v=Aq8t9eaqbTg",
+   "published": "2026-10-05T11:45:19+00:00",
+   "description": "AI 이미지의 포즈를 마음대로 바꾼다! Qwen-Image 2.1 + 3D Pose | ComfyUI 완벽 가이드 Part.69\n\n[ComfyUI 추천 도서]\nComfyUI 최신판: https://kmong.com/self-marketing/705849/QATuxciS6P\n\n[Custom Node]\nVNCCS Utils Maintained: https://github.com/teenu/ComfyUI-Jakkanna\n\n[Model Download]\nDiffusion models: https://huggingface.co/Comfy-Org/Qwen-Image-2.1/tree/main/diffusion_models\nText Encoders: https://huggingface.co/Comfy-Org/Qwen-Im",
    "official": false,
    "kind": "other",
    "software": [
@@ -1655,22 +1703,6 @@
    "kind": "other",
    "software": [
     "nuke"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:zd97ZAMEjJA",
-   "platform": "YouTube",
-   "title": "Stop Struggling With MiniMax H3 Prompts — Do This Instead! (COMFYUI)",
-   "channel": "AiKonFlux",
-   "channel_id": "UCRNOQXoAZMNorfU96n0ZKGg",
-   "url": "https://www.youtube.com/watch?v=zd97ZAMEjJA",
-   "published": "2026-09-30T13:41:56+00:00",
-   "description": "Stop struggling with MiniMax H3 prompts. In this video, I'll show you how to use a local LLM with OpenH3-IR and ComfyUI to automatically turn simple instructions into properly structured MiniMax H3 prompts.\n\nWe'll set up LM Studio, use Gemma and Qwen for image and video references, and test text-to-video, image-to-video, reference video, dialogue, audio, and character replacement workflows.\n\nThe i",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
    ],
    "score": 0
   },
