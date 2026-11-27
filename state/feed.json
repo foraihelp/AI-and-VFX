@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-26T17:28:40+00:00",
+ "generated_at": "2026-11-27T17:07:48+00:00",
  "window_days": 90,
  "software": [
   {
@@ -52,6 +52,22 @@
     "nuke"
    ],
    "score": 110
+  },
+  {
+   "id": "yt:ohZxrU0YefI",
+   "platform": "YouTube",
+   "title": "Clean Up Footage Faster Using Video Inpaint ML in Silhouette",
+   "channel": "Boris FX",
+   "channel_id": "UCFYIs4rin2YgKKnYxEd6JAA",
+   "url": "https://www.youtube.com/watch?v=ohZxrU0YefI",
+   "published": "2026-11-27T15:01:11+00:00",
+   "description": "Accelerate tedious VFX clean-up jobs by letting Video Inpaint machine learning reconstruct missing pixels in your shots to give you a great starting point with image clean-up.\n\nDealing with stray objects, unwanted wires, or pesky tracking markers is a familiar hurdle in visual effects work. \n\nThis video illustrates how to use the Video Inpaint ML node inside Boris FX Silhouette to start the clean-",
+   "official": true,
+   "kind": "other",
+   "software": [
+    "silhouette"
+   ],
+   "score": 100
   },
   {
    "id": "yt:Oqye03ZlXME",
@@ -262,6 +278,22 @@
    "score": 100
   },
   {
+   "id": "yt:ZnXEoYp3rvc",
+   "platform": "YouTube",
+   "title": "Silhouette 2027 Is Here! Is AI Changing Rotoscoping Forever? | New Features Explained",
+   "channel": "Vfx Discovery",
+   "channel_id": "UC0bA54xjwarJd3fh7cXNwqg",
+   "url": "https://www.youtube.com/watch?v=ZnXEoYp3rvc",
+   "published": "2026-11-27T11:30:20+00:00",
+   "description": "Boris FX has officially released **Silhouette 2027**, bringing powerful AI-assisted tools and exciting new features to the world of rotoscoping, paint and compositing.\n\nBut what does this update actually mean for VFX artists?\n\nIn this video, we explore the latest features in Silhouette 2027, including Body ML, Roto ML, Shape Tracker, Matte ML, Video Inpaint ML, enhanced 3D compositing and Runway i",
+   "official": false,
+   "kind": "release",
+   "software": [
+    "silhouette"
+   ],
+   "score": 50
+  },
+  {
    "id": "yt:eMlx5tz02q8",
    "platform": "YouTube",
    "title": "MiniMax H3 Temporal Windows & Spatial Tiles Custom node Explained + latest update 1.6.1",
@@ -326,6 +358,86 @@
    "score": 25
   },
   {
+   "id": "yt:QCtVSA94l-M",
+   "platform": "YouTube",
+   "title": "n8n ComfyUI Workflow: Trigger ComfyUI From n8n and Get the Image #aiautomation #automation #n8n",
+   "channel": "Ahmad | AI Automation",
+   "channel_id": "UCndJsCumRxIZJ2W_i8y9dxw",
+   "url": "https://www.youtube.com/watch?v=QCtVSA94l-M",
+   "published": "2026-11-27T13:00:09+00:00",
+   "description": "Full Video: https://www.youtube.com/watch?v=nuUf3f36RUE\n\n📝 Join my Skool Community👇\nhttps://www.skool.com/ai-automation-kit-1930/about\n\nSee the result first: a blurry photo turned into a detailed one by a ComfyUI workflow that n8n started on its own. Then the whole flow in a minute: set your variables, start the workflow, wait and check the status, get the output URL and download the image.\n\n#aiau",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:ohGFoxk7gFM",
+   "platform": "YouTube",
+   "title": "Advance Comfyui 3 reference images video generation using Minimax H3 and workflow download free",
+   "channel": "Karan uncle Gamer ",
+   "channel_id": "UCaa4M8l3D_AmXTZlAhxGPRg",
+   "url": "https://www.youtube.com/watch?v=ohGFoxk7gFM",
+   "published": "2026-11-27T06:19:59+00:00",
+   "description": "Download workflow : include images and workflows\nhttps://drive.google.com/file/d/1EiZ-dm7o9ItDmHi3DiXITPfhY-fo0fLo/view?usp=sharing",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:yXskhy-GSdU",
+   "platform": "YouTube",
+   "title": "MiniMax H3 Image Complete Guide | 16MP AI Images, 360° Panoramas & Fast ComfyUI Workflow",
+   "channel": "Time-AI",
+   "channel_id": "UC3eLbRZiQlqQwHzKhAQlEpg",
+   "url": "https://www.youtube.com/watch?v=yXskhy-GSdU",
+   "published": "2026-11-27T04:03:17+00:00",
+   "description": "# MiniMax H3 Image Complete Beginner's Guide – Easy to Follow, Even for Beginners!\n\nIn this tutorial, I'll walk you through the entire MiniMax H3 Image workflow, from installation to practical applications:\n\n✅ Generate stunning 4K ultra-high-resolution images  \n✅ Create 360° panoramas and generate four different views  \n✅ Detailed walkthrough of AI image editing features  \n✅ Ultra-fast 2-step imag",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:R0FwJvTESzM",
+   "platform": "YouTube",
+   "title": "Hướng dẫn Comfyui : Buổi 28 - Viết Custom Node",
+   "channel": "Chung Shin AI",
+   "channel_id": "UCSKqG6Gv9qLpm2WeWSMliBA",
+   "url": "https://www.youtube.com/watch?v=R0FwJvTESzM",
+   "published": "2026-11-27T01:00:07+00:00",
+   "description": "Hướng dẫn Comfyui : Buổi 28 - Viết Custom Node\n\nChào mừng bạn đến với Chung Shin Ai — kênh chuyên hướng dẫn về Trí tuệ nhân tạo (AI) dành cho người Việt! 🤖\n\nTại đây bạn sẽ tìm thấy:\n✅ Hướng dẫn ComfyUI từ cơ bản đến nâng cao: cài đặt, workflow, tạo ảnh & video AI\n✅ Khám phá các mã nguồn mở AI mới nhất: Stable Diffusion, Flux, LLM chạy local...\n✅ Cập nhật công nghệ AI mới nhất: review model, tool, ",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
+   "id": "yt:RbWVTa1mbMs",
+   "platform": "YouTube",
+   "title": "Face Swap in ComfyUI (Free Workflow)",
+   "channel": "SeedraAI",
+   "channel_id": "UCHW9UK4KCKIs0oSz0de2Gwg",
+   "url": "https://www.youtube.com/watch?v=RbWVTa1mbMs",
+   "published": "2026-11-26T19:45:46+00:00",
+   "description": "Get the free SeedraAI Face Swap workflow → seedraai.com\nOpen #free-workflows in the SeedraAI Discord and look for SeedraAI Face Swap.\n\nI run the same photo with two different reference portraits in ComfyUI so you can see how much the choice of reference changes the result. I'll show you which photos go where, when to use the reference hairstyle, and what to look for when you zoom in on the finishe",
+   "official": false,
+   "kind": "workflow",
+   "software": [
+    "comfyui"
+   ],
+   "score": 15
+  },
+  {
    "id": "yt:amMND-uIinY",
    "platform": "YouTube",
    "title": "MiniMax H3 за 2 шага: как pi-H3 ускоряет генерацию видео. Разбор метода + workflow для ComfyUI",
@@ -374,22 +486,6 @@
    "score": 15
   },
   {
-   "id": "yt:LRdfgrQ_Z5k",
-   "platform": "YouTube",
-   "title": "Infinite Loop AI Videos With Zero Seams: MiniMax H3 (Free ComfyUI Workflow)",
-   "channel": "Corvo Labs",
-   "channel_id": "UCiacz7M767uLmuECBctPi0A",
-   "url": "https://www.youtube.com/watch?v=LRdfgrQ_Z5k",
-   "published": "2026-11-25T00:02:05+00:00",
-   "description": "Infinite loop AI videos with zero seams: no crossfade, no visible join, they just keep going. Made 100% locally with MiniMax H3 in ComfyUI on an RTX 5070, and the whole workflow is FREE.\n\n🔗 Get the workflow (FREE / pay what you want):\nhttps://corvolabs.gumroad.com/l/janvy\n\nIn this video:\n✅ Four seamless loops: windmill, garden hammock, a toy train doing one full lap, and a porch rocking chair\n✅ Ho",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
    "id": "yt:5uM-fyDFndw",
    "platform": "YouTube",
    "title": "สอนติดตั้ง ComfyUI ง่ายสุด แบบ One-Click + Custom Node |ทำวิดีโอ AI ในเครื่องสั่งงานด้วย Claude Code",
@@ -398,22 +494,6 @@
    "url": "https://www.youtube.com/watch?v=5uM-fyDFndw",
    "published": "2026-11-24T21:54:21+00:00",
    "description": "สอนติดตั้ง ComfyUI แบบ One-Click สำหรับมือใหม่ ตั้งแต่ลงโปรแกรม ติดตั้ง Custom Node ไปจนถึงใช้ Workflow ทำวิดีโอ AI ได้จริงในเครื่องตัวเอง\nแถมวิธีสั่งงาน ComfyUI จากมือถือด้วย Claude Code Remote ให้เจนวิดีโอ เพลง และตัวละครแบบ Local ไม่ต้องนั่งหน้าคอม\n\nในคลิปนี้ใช้ตัวติดตั้ง ComfyUI One-Click ของคุณ Vjump ที่ช่วยให้คนไม่เคยลง ComfyUI มาก่อนติดตั้งได้ในไม่กี่คลิก\nจากนั้นติดตั้ง Workflow LongMai Min",
-   "official": false,
-   "kind": "workflow",
-   "software": [
-    "comfyui"
-   ],
-   "score": 15
-  },
-  {
-   "id": "yt:l_Q-nZGdfKI",
-   "platform": "YouTube",
-   "title": "Seedance 2.5 Drops Frame FIX - Comfyui WORKFLOW",
-   "channel": "Loco Edit Breakdown",
-   "channel_id": "UC6L46tcE4FrmM-GsdhRq3qw",
-   "url": "https://www.youtube.com/watch?v=l_Q-nZGdfKI",
-   "published": "2026-11-24T21:14:26+00:00",
-   "description": "**LOCO FRAME FIXER | Fix Seedance 2.5 Dropped Frames in ComfyUI**\n\nTired of those annoying micro-stutters in your Seedance 2.5 videos? You've generated the perfect shot, but missing frames are ruining the entire sequence.\n\nInstead of interpolating the entire video, LOCO FRAME FIXER reconstructs the missing frames while preserving the original image quality, motion and resolution.\n\nIn this tutorial",
    "official": false,
    "kind": "workflow",
    "software": [
@@ -552,14 +632,14 @@
    "score": 15
   },
   {
-   "id": "yt:uw-YdtmaV5M",
+   "id": "yt:8Rl-e7XmJGg",
    "platform": "YouTube",
-   "title": "How to fix Messy Faces in MiniMax H3 Videos  - 8GB VRAM",
-   "channel": "bigboss97",
-   "channel_id": "UCRJFDIjRRfPy3wzRM04E3Aw",
-   "url": "https://www.youtube.com/watch?v=uw-YdtmaV5M",
-   "published": "2026-11-26T06:00:13+00:00",
-   "description": "Demonstration of fixing messy small faces in existing video.\n\nCustom nodes & workflow:\nhttps://github.com/Pixelailabs/ComfyUI-H3-FaceFix-PixelAILabs\n\nRelated videos:\nUsing Codex & Blender to do Camera & Motion Control in MiniMax H3 - 8GB VRAM\nhttps://youtu.be/Kdj9EDKz8ic\n\nOutput files of the tutorial are uploaded to Patreon, free to join.\nhttps://www.patreon.com/bigboss97\n\n========\nPlease check ou",
+   "title": "How to Use ComfyUI: A Beginner's Guide (Free, Z-Image-Turbo)",
+   "channel": "Nico Renders",
+   "channel_id": "UCshx8pnc1GHBE-6nOftnjKA",
+   "url": "https://www.youtube.com/watch?v=8Rl-e7XmJGg",
+   "published": "2026-11-27T17:00:35+00:00",
+   "description": "Find your way around ComfyUI in five minutes: move around the canvas, what nodes and links are, add your own, run, save, and get any workflow back from a picture. With the free Z-Image-Turbo model, on your own computer.\n\nNew to ComfyUI and Z-Image-Turbo? Start with the first video: https://www.youtube.com/watch?v=8QnF7OGU2m0\n\nWhat you need\n- ComfyUI 0.45 or newer (this video uses v0.45.0)\n- The th",
    "official": false,
    "kind": "tutorial",
    "software": [
@@ -568,14 +648,62 @@
    "score": 10
   },
   {
-   "id": "yt:-InSR4XGds8",
+   "id": "yt:J9UTpf8bOLM",
    "platform": "YouTube",
-   "title": "ComfyUI Nuke Tutorial: Install and Connect in 2 Minutes (Start Here)",
-   "channel": "PyNukeLab",
-   "channel_id": "UCC-R7AqYDAfVqdVGau-NtAQ",
-   "url": "https://www.youtube.com/watch?v=-InSR4XGds8",
-   "published": "2026-11-25T12:55:42+00:00",
-   "description": "ComfyUI Nuke tutorial for beginners: install ComfyUI, connect it to Nuke, and test it. Start here before any ComfyUI Nuke workflow.\n\nNew to ComfyUI inside Nuke? Start here. This video shows the full setup from zero: install ComfyUI, start it, connect Nuke, and test the connection with one click.\n\nSteps:\n1. Install ComfyUI (Comfy Desktop, or the portable build)\n2. Start it and open http://127.0.0.1",
+   "title": "MiniMax H3 + ComfyUI: How to Control Multiple Voices in AI Videos",
+   "channel": "RasmonT",
+   "channel_id": "UCvKvsKlUeHAVD9gynu13NfA",
+   "url": "https://www.youtube.com/watch?v=J9UTpf8bOLM",
+   "published": "2026-11-27T17:00:05+00:00",
+   "description": "Two characters, two different voices, and full control over who says what in the same AI-generated scene.\n\nIn this tutorial, I'll show you how to control and replace individual character voices using MiniMax H3, ComfyUI, and my own custom node, SeedVC Voice Swap.\n\nInstead of regenerating the entire video whenever MiniMax gets the dialogue timing wrong, you can correct the voices separately and sav",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:nBL6W-pW5BE",
+   "platform": "YouTube",
+   "title": "How to Connect Claude to ComfyUI",
+   "channel": "Tech Info",
+   "channel_id": "UCcTYIIp7bi6FmOEZOXEiHng",
+   "url": "https://www.youtube.com/watch?v=nBL6W-pW5BE",
+   "published": "2026-11-27T14:39:18+00:00",
+   "description": "Want to connect Claude to ComfyUI and generate stunning AI images, videos, and 3D assets using simple text prompts? In this tutorial, I'll show you how to connect Claude to ComfyUI using Comfy MCP, allowing Claude to build workflows, discover models, execute generations, and retrieve the results directly from your conversations.\n\n**Here's what you'll learn:**\n- How to connect Claude to ComfyUI\n- H",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:qhTpSa_Y5ow",
+   "platform": "YouTube",
+   "title": "How to Use Motion Control in ComfyUI (Step-by-Step Guide 2026)",
+   "channel": "GuideGrid",
+   "channel_id": "UCAxZ5v9u46FAMTY0UUxxY8A",
+   "url": "https://www.youtube.com/watch?v=qhTpSa_Y5ow",
+   "published": "2026-11-27T13:00:05+00:00",
+   "description": "How to Use Motion Control in ComfyUI: This step-by-step guide for 2026 walks you through using motion control in ComfyUI to create smooth AI-driven animations. You'll learn to configure nodes, set motion keyframes, integrate Stable Diffusion models, and export frames with optimized render settings. The tutorial covers workflow best practices to streamline frame generation and ensure consistent res",
+   "official": false,
+   "kind": "tutorial",
+   "software": [
+    "comfyui"
+   ],
+   "score": 10
+  },
+  {
+   "id": "yt:VVzEDPiNPaw",
+   "platform": "YouTube",
+   "title": "Create AI Voiceovers with ComfyUI! | TTS Audio Suite Tutorial",
+   "channel": "AI UNLEASHED",
+   "channel_id": "UCXErw6IriG57HUKs8ygn9nQ",
+   "url": "https://www.youtube.com/watch?v=VVzEDPiNPaw",
+   "published": "2026-11-27T12:18:56+00:00",
+   "description": "Want to create AI voiceovers without recording your own voice?\n\nIn this tutorial, I'll show you how to use ComfyUI and TTS Audio Suite to generate AI speech from text.\n\nLearn how to explore the workflow, configure voice settings, and generate your own AI narration.\n\nPerfect for AI video creators and beginners exploring local text-to-speech tools.\n\n#comfyui  #tts  #aivoice  #texttospeech  #aitutori",
    "official": false,
    "kind": "tutorial",
    "software": [
@@ -592,22 +720,6 @@
    "url": "https://www.youtube.com/watch?v=pgvywSqJA-w",
    "published": "2026-11-24T12:15:17+00:00",
    "description": "Learn how to create ultra-realistic, unlimited-length AI videos with MiniMax H3 and ComfyUI — running entirely on your local PC, without paying for video generation credits.\nOne of the biggest challenges in AI video generation is creating longer videos without losing character consistency, natural motion, or visual quality. In this tutorial, I'll show you how I tackle these problems using a custom",
-   "official": false,
-   "kind": "tutorial",
-   "software": [
-    "comfyui"
-   ],
-   "score": 10
-  },
-  {
-   "id": "yt:iJihxk7Ef1Q",
-   "platform": "YouTube",
-   "title": "Fix Video Degradation & Darkness in Long Minimax H3 Chains (Comfy UI Tutorial)",
-   "channel": "AI Ninja",
-   "channel_id": "UC8ioMZEYT8mdwyjz9DEy35Q",
-   "url": "https://www.youtube.com/watch?v=iJihxk7Ef1Q",
-   "published": "2026-11-22T18:52:15+00:00",
-   "description": "Are your Minimax H3 videos turning pitch black, blurry, or losing contrast after chaining clips? \nCheckout the community fix: the Geiru Keystone Attention workflow.\n\n⚙️ RECOMMENDED SETTINGS CHEAT SHEET:\n• Model: MiniMax H3 Video (Ref2VA)\n• Turbo LoRA: 8-Step Turbo LoRA (e.g. minimax_h3_ref2v_turbo_8step_v1.0_768p)\n• Frame Count (Rule of 3): 141 (5.9s), 192 (8s), 243 (10.1s), or 345 (14.4s) to keep",
    "official": false,
    "kind": "tutorial",
    "software": [
@@ -692,22 +804,6 @@
    "kind": "tutorial",
    "software": [
     "nuke"
-   ],
-   "score": 10
-  },
-  {
-   "id": "yt:gKKp0Igbrus",
-   "platform": "YouTube",
-   "title": "ComfyUI Manager: How to Fix Missing Nodes",
-   "channel": "The AI Toolbox",
-   "channel_id": "UCmxifChwsfWA4E9FhQgQ78Q",
-   "url": "https://www.youtube.com/watch?v=gKKp0Igbrus",
-   "published": "2026-11-05T08:40:17+00:00",
-   "description": "To fix missing nodes in ComfyUI, click Install All on the missing nodes pop-up, or open the Manager and filter by Missing, then restart. Plus why nodes turn red, custom node security, safe updates, and a free build prompt that lists the packs a workflow needs.\n\nIn this video:\n- What ComfyUI custom nodes are\n- Why ComfyUI nodes turn red\n- Install Missing Custom Nodes\n- ComfyUI custom node security\n",
-   "official": false,
-   "kind": "tutorial",
-   "software": [
-    "comfyui"
    ],
    "score": 10
   },
@@ -1032,6 +1128,150 @@
    "score": 10
   },
   {
+   "id": "yt:yUPghcM1lsc",
+   "platform": "YouTube",
+   "title": "I Made 1 Photo Cry & Scream on a Home GPU for $0 (ComfyUI)",
+   "channel": "Frame Zero Forensics",
+   "channel_id": "UC7nrY4dOTKzomdvaOY1O0gw",
+   "url": "https://www.youtube.com/watch?v=yUPghcM1lsc",
+   "published": "2026-11-27T17:00:14+00:00",
+   "description": "My first three acting tests at 2 AM looked like a haunted puppet chewing empty air—until I ditched front-facing mugshots and locked one 3/4 camera trick (03:16). One still image, dual RTX 3090s, $0 in cloud credits—and yes, even the voiceover runs locally.\n\nSkip the frozen-jaw rookie mistake: watch 03:16 before you drop a passport photo into the Audio 1 slot, or your character will break on scream",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:OZgR8spa6p4",
+   "platform": "YouTube",
+   "title": "Hướng dẫn Comfyui : Buổi 31 - MINIMAX H3",
+   "channel": "Chung Shin AI",
+   "channel_id": "UCSKqG6Gv9qLpm2WeWSMliBA",
+   "url": "https://www.youtube.com/watch?v=OZgR8spa6p4",
+   "published": "2026-11-27T15:00:06+00:00",
+   "description": "Hướng dẫn Comfyui : Buổi 31 - MINIMAX H3\n\nChào mừng bạn đến với Chung Shin Ai — kênh chuyên hướng dẫn về Trí tuệ nhân tạo (AI) dành cho người Việt! 🤖\n\nTại đây bạn sẽ tìm thấy:\n✅ Hướng dẫn ComfyUI từ cơ bản đến nâng cao: cài đặt, workflow, tạo ảnh & video AI\n✅ Khám phá các mã nguồn mở AI mới nhất: Stable Diffusion, Flux, LLM chạy local...\n✅ Cập nhật công nghệ AI mới nhất: review model, tool, xu hướ",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:GeXZwuV4pDg",
+   "platform": "YouTube",
+   "title": "MiniMax H3 + Tessera: Upscale AI Videos to 4K & 8K! | ComfyUI",
+   "channel": "The Ai Blueprint",
+   "channel_id": "UCJEi1eXvBISn2fya1PAcNRg",
+   "url": "https://www.youtube.com/watch?v=GeXZwuV4pDg",
+   "published": "2026-11-27T14:11:52+00:00",
+   "description": "RunningHub Link : https://www.runninghub.ai?inviteCode=2ros5nl9\n\nINVITE CODE - 2ros5nl9\n\n- Free Tessera Workflow & MODELS Links - https://www.patreon.com/posts/176534932?utm_campaign=postshare_creator&utm_content=android_share\n\n- Tessera GitHub Repository: https://github.com/hashu786/ComfyUI-Tessera\n\n\nUpscale AI videos to 4K and beyond with Tessera + MiniMax H3 in ComfyUI! \n\n\nNo local setup, no po",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:a7tSbvBtBio",
+   "platform": "YouTube",
+   "title": "Minimax H3 pi-H3 in ComfyUI Gen Without a VAE Decoder - Speed vs Quality, Honest Verdict",
+   "channel": "Benji’s AI Playground",
+   "channel_id": "UCybCsobEq5NzKKIRkpVZjYQ",
+   "url": "https://www.youtube.com/watch?v=a7tSbvBtBio",
+   "published": "2026-11-27T13:00:09+00:00",
+   "description": "pi-H3 ComfyUI test and review: I run the new decoder-free video model side by side against normal MiniMax H3 to see what skipping the VAE decoder really costs in quality. pi-H3 is a new open-source research release built on DWD (Decoding Without a Decoder) and the pi-Flow distillation framework. It cuts generation to 2 or 4 sampling steps and predicts pixels straight from the diffusion transformer",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:ybgmz-BhxaM",
+   "platform": "YouTube",
+   "title": "Let Your Agent Label and Organize ComfyUI Workflows",
+   "channel": "Alex Villabon",
+   "channel_id": "UC6SjKKNsyFLeL-IbtQzxXPA",
+   "url": "https://www.youtube.com/watch?v=ybgmz-BhxaM",
+   "published": "2026-11-27T11:00:07+00:00",
+   "description": "Alex labels the controls that matter in a downloaded ComfyUI workflow, then asks for a version that can run with the custom nodes he already has.\n\nFull episode: Agents 101 for VFX Artists | Fix It In Prompt Ep. 014\nhttps://youtu.be/A_ohYn43oD4\n\n#DellProPrecision #DellProMax #DellTech #NVIDIA #Magnific #ComfyUI #NodeGraphs #VFXWorkflow #FixItInPrompt",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:lFr98eD_vgc",
+   "platform": "YouTube",
+   "title": "ComfyUI - Minimax H3 Video & Image Kullanım Rehberi",
+   "channel": "Ve Kerem Bey",
+   "channel_id": "UCIsbovQ0oViTgZeka0VkXAg",
+   "url": "https://www.youtube.com/watch?v=lFr98eD_vgc",
+   "published": "2026-11-27T09:12:43+00:00",
+   "description": "Bu videoda ComfyUI üzerinde yayınlanan Minimax H3 Video & Image açık kaynak (Open Source) \"video generation\", \"image edit\" ve \"text to image\" modelini birlikte inceliyoruz.\n\nComfyUI Workflow dosyaları:\nhttps://github.com/vekerembey/ComfyUI_Workflows/\n\nAmacımız gerçek kullanım senaryolarında nasıl sonuç verdiğini birlikte görmek.\n\nBu video, ComfyUI eğitim serisinin bir parçasıdır ve pratik örnekler",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:qBDk_ZmgW3I",
+   "platform": "YouTube",
+   "title": "I Built a GPU-Accelerated Defocus Tool for Nuke - Viewer Speed Trick",
+   "channel": "VFX SHOWDOWN",
+   "channel_id": "UCpDZCTkveqFBIRts8qvwGBw",
+   "url": "https://www.youtube.com/watch?v=qBDk_ZmgW3I",
+   "published": "2026-11-27T06:30:35+00:00",
+   "description": "OPTICS DEPTH OF FIELD FOR NUKE | GPU-ACCELERATED BLINKSCRIPT TOOL (V1.0.0)\n\nIntroducing Optics Depth of Field – a GPU-accelerated depth-based defocus tool for Foundry Nuke, built using BlinkScript.\n\nDesigned to deliver fast performance with powerful creative controls, this tool lets you create realistic and stylized depth of field using your depth pass.\n\n✨ KEY FEATURES\n\n• GPU-accelerated BlinkScri",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "nuke"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:dkIuGegSpNw",
+   "platform": "YouTube",
+   "title": "Kandinsky ImageSR 2.0 vs SeedVR2 vs Steppe: Which Upscaler Wins in ComfyUI?",
+   "channel": "JanRT",
+   "channel_id": "UC-jN88jg8spaOHRU2y8bwTw",
+   "url": "https://www.youtube.com/watch?v=dkIuGegSpNw",
+   "published": "2026-11-27T02:20:38+00:00",
+   "description": "Tested on 16 GB VRAM + 32 GB RAM · How one-step upscaling works, from the code · 3 upscalers, real runs · Creativity test on an old photo\n\nKandinsky ImageSR 2.0, Steppe and SeedVR2: three one-step upscalers, tested side by side in ComfyUI on a 16 GB card.\n\nWorkflows: https://github.com/JanRTstudio/comfyui-workflows/tree/main/2611-upscalers\n\nInstall our node (Kandinsky ImageSR 2.0 + Steppe): https:",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
+   "id": "yt:WW4NLRyMDt8",
+   "platform": "YouTube",
+   "title": "NVIDIA Opened a GPT Image 2 Rival—Why Pixel as Code Matters for Creators",
+   "channel": "Tech To Heart",
+   "channel_id": "UCVffTQFHPcmFV9HZv9EZzJw",
+   "url": "https://www.youtube.com/watch?v=WW4NLRyMDt8",
+   "published": "2026-11-26T19:45:37+00:00",
+   "description": "NVIDIA quietly released Nemotron-Labs-Image-30B-A3B, the raster generator inside Pixel as Code. The bigger story is not just another image model—it is a more editable, local workflow for text-heavy visuals. Here is what shipped, why ComfyUI users moved fast, and what to test next.\n#NVIDIA #ComfyUI #GenerativeAI #AICreators",
+   "official": false,
+   "kind": "other",
+   "software": [
+    "comfyui"
+   ],
+   "score": 0
+  },
+  {
    "id": "yt:grOi-fiWEtk",
    "platform": "YouTube",
    "title": "Créer un court métrage en local avec ComfyUI et MiniMax H3",
@@ -1080,38 +1320,6 @@
    "score": 0
   },
   {
-   "id": "yt:LybVf3uvhIA",
-   "platform": "YouTube",
-   "title": "ComfyUI 工作流教學：導入別人的工作流一片紅？缺節點、缺模型一次補齊",
-   "channel": "麵條AI研究所 | Infinite Noodle",
-   "channel_id": "UCD4r6Q9trgCe9wVeRV-RFcQ",
-   "url": "https://www.youtube.com/watch?v=LybVf3uvhIA",
-   "published": "2026-11-26T12:00:30+00:00",
-   "description": "📖 完整圖文教學＋檢查清單：https://infinitenoodle.com/comfyui/import-workflow/\n\n🔔 訂閱頻道，每週新的 AI 實測：https://www.youtube.com/channel/UCD4r6Q9trgCe9wVeRV-RFcQ?sub_confirmation=1\n\nComfyUI 工作流教學（2026）：下載別人的 ComfyUI 工作流，一打開就一片紅？這集示範 3 種工作流導入方法，教你分清楚是缺節點還是缺模型，用 ComfyUI Manager 一鍵安裝缺少的節點（Install Missing Custom Nodes），再把缺少的模型放進正確資料夾。最後整理 3 種「裝了還是紅」的情況：IMPORT FAILED、ComfyUI 版本太舊、節點衝突。\n\n📥 3 種工作流導入方法\n・把 .json 檔直接拖進 ComfyUI",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:7soerjXrM_M",
-   "platform": "YouTube",
-   "title": "Hướng dẫn Comfyui : Buổi 26 - Nhất quán Nhân Vật",
-   "channel": "Chung Shin AI",
-   "channel_id": "UCSKqG6Gv9qLpm2WeWSMliBA",
-   "url": "https://www.youtube.com/watch?v=7soerjXrM_M",
-   "published": "2026-11-26T10:00:09+00:00",
-   "description": "Hướng dẫn Comfyui : Buổi 26 - Nhất quán Nhân Vật\n\nChào mừng bạn đến với Chung Shin Ai — kênh chuyên hướng dẫn về Trí tuệ nhân tạo (AI) dành cho người Việt! 🤖\n\nTại đây bạn sẽ tìm thấy:\n✅ Hướng dẫn ComfyUI từ cơ bản đến nâng cao: cài đặt, workflow, tạo ảnh & video AI\n✅ Khám phá các mã nguồn mở AI mới nhất: Stable Diffusion, Flux, LLM chạy local...\n✅ Cập nhật công nghệ AI mới nhất: review model, tool",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:pFy6PVd90EE",
    "platform": "YouTube",
    "title": "Dopamine Dip Process. Avoid this Process",
@@ -1120,22 +1328,6 @@
    "url": "https://www.youtube.com/watch?v=pFy6PVd90EE",
    "published": "2026-11-26T06:30:31+00:00",
    "description": "Welcome to Mr. Moon's AI Education Channel!\n\nHere, I share practical tutorials and real-world demonstrations about AI influencer creation, AI models, image and video generation, ComfyUI workflows, and digital content creation.\n\n🎓 FREE AI INFLUENCER MASTERCLASS\nhttps://youtu.be/iWH45hoE9Lo\n\n📚 WHAT YOU CAN LEARN\n• How to create consistent AI influencer characters\n• Realistic AI image and video gener",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:SOooNVDgmUQ",
-   "platform": "YouTube",
-   "title": "Hướng dẫn Comfyui : Buổi 25 - Train LORA",
-   "channel": "Chung Shin AI",
-   "channel_id": "UCSKqG6Gv9qLpm2WeWSMliBA",
-   "url": "https://www.youtube.com/watch?v=SOooNVDgmUQ",
-   "published": "2026-11-26T05:00:10+00:00",
-   "description": "Hướng dẫn Comfyui : Buổi 25 - Train LORA\n\nChào mừng bạn đến với Chung Shin Ai — kênh chuyên hướng dẫn về Trí tuệ nhân tạo (AI) dành cho người Việt! 🤖\n\nTại đây bạn sẽ tìm thấy:\n✅ Hướng dẫn ComfyUI từ cơ bản đến nâng cao: cài đặt, workflow, tạo ảnh & video AI\n✅ Khám phá các mã nguồn mở AI mới nhất: Stable Diffusion, Flux, LLM chạy local...\n✅ Cập nhật công nghệ AI mới nhất: review model, tool, xu hướ",
    "official": false,
    "kind": "other",
    "software": [
@@ -1192,22 +1384,6 @@
    "score": 0
   },
   {
-   "id": "yt:XRqne0fSryw",
-   "platform": "YouTube",
-   "title": "SenseNova U1.6 8B มาแล้ว! AI สร้างภาพ + แก้ไขภาพ ครบจบในโมเดลเดียว  ComfyUI 🚀",
-   "channel": "Ton Like IT",
-   "channel_id": "UCXUpwJe2khG3H5LKQ7Po1QQ",
-   "url": "https://www.youtube.com/watch?v=XRqne0fSryw",
-   "published": "2026-11-25T13:34:01+00:00",
-   "description": "SenseNova U1.6 8B มาแล้ว! AI สร้างภาพ + แก้ไขภาพ ครบจบในโมเดลเดียว  ComfyUI 🚀\n\n\nคลิปนี้จะพาไปรู้จักกับ **SenseNova-U1.6 8B** โมเดล AI ที่รองรับงานสร้างภาพ (AI Image Generation) และแก้ไขภาพ (AI Image Editing) ผ่าน Workflow บน ComfyUI พร้อมพาไปดูหน้าตา Workflow และแนวทางการใช้งานจริง\n\n✨ **สิ่งที่น่าสนใจในคลิป**\n- ทำความรู้จัก SenseNova-U1.6 8B\n- AI Image Generation สร้างภาพจาก Prompt\n- AI Image Edit",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:k5GNCZw3Kq4",
    "platform": "YouTube",
    "title": "My RTX 3060 Couldn't Handle H3. RunningHub Made It Possible!",
@@ -1216,38 +1392,6 @@
    "url": "https://www.youtube.com/watch?v=k5GNCZw3Kq4",
    "published": "2026-11-25T13:30:03+00:00",
    "description": "My RTX 3060 is great for experimenting in ComfyUI, but high-quality H3 video renders push VRAM and render time to the limit. So I build and test locally, then move the final render to @RunningHub. In this video I show the full workflow, plus Quick Create for beginners.\n\n👉 Sign up with my invite link and get free credits to try RunningHub: \nhttps://www.runninghub.ai?inviteCode=ainjhxle\n\nIn this vid",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:hS3JevG-99k",
-   "platform": "YouTube",
-   "title": "minimax h3 character swap | I Replaced the Actor in a 2-Minute Video with minimax h3 in comfyui",
-   "channel": "AI Forge Lab",
-   "channel_id": "UCgNQPRJDOfNnLRPVW5mVG7A",
-   "url": "https://www.youtube.com/watch?v=hS3JevG-99k",
-   "published": "2026-11-25T07:49:06+00:00",
-   "description": "Edit 1-minute+ videos in ONE shot with MiniMax H3 (Hailuo 3.0) in ComfyUI. Swap characters, relight with 65 lighting presets, replace products, change outfits and transform the whole environment, with perfect lip sync. No 15-second limit.\n\n🔗 LINKS\n▶ Get the workflow + prompt skill files (Patreon): https://www.patreon.com/AiForgeLab01/posts/ultimate-video-176327573?utm_medium=clipboard_copy&utm_sou",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:9F0-7mboN_Q",
-   "platform": "YouTube",
-   "title": "Minimax h3 за два шага в разрешени 1 мп, самая быстрая генерация сейчас, до 10 раз быстрее обычной",
-   "channel": "igrazum",
-   "channel_id": "UCSF3BOztjnaKBkjfsgJ2JKg",
-   "url": "https://www.youtube.com/watch?v=9F0-7mboN_Q",
-   "published": "2026-11-25T07:00:08+00:00",
-   "description": "Генерация видео в Minimax H3 до 10 раз быстрее обычной! В этом видео тестируем облегченные LoRA от Kijai для ComfyUI: как получать видео высокого качества в разрешении 1 мегапиксель всего за 2 и 4 шага без тяжелых декодеров.\n\nРазбираем разницу между стандартным KSampler и рабочим процессом с кастомными сигмами, сравниваем скорость рендера (всего 1 минута на RTX 5070!), силу применения LoRA и смотр",
    "official": false,
    "kind": "other",
    "software": [
@@ -1272,54 +1416,6 @@
    "score": 0
   },
   {
-   "id": "yt:Ya6ZELfznvY",
-   "platform": "YouTube",
-   "title": "MiniMax H3 롱테이크 만드는 법 - 15초 한계를 넘어 컷 없이 1분 40초 이어지는 영상(워크플로 공유)",
-   "channel": "Deno",
-   "channel_id": "UCbxWV6MF3RLTbY3AR-9Jukw",
-   "url": "https://www.youtube.com/watch?v=Ya6ZELfznvY",
-   "published": "2026-11-25T04:02:59+00:00",
-   "description": "MiniMax H3로 한 번에 15초 정도까지 만드는 영상을 구간으로 나눠 이어 그려, 중간에 컷 없이 1분 40초 동안 이어지는 롱테이크 영상을 만드는 원리와 ComfyUI 워크플로 사용법을 정리했습니다. 영상에서 사용한 워크플로를 함께 공유합니다.\n\n영상 첫 장면은 라벤더가 조선 시대 저잣거리에서 시작해 로마, 이집트, 공룡이 사는 숲, 80년대 서울과 미래의 서울을 지나 집으로 돌아올 때까지 카메라가 한 번도 끊기지 않고 따라가는 시간여행 롱테이크입니다.\n\n15초보다 긴 영상은 여러 구간으로 나눠 만들어야 하는데, 따로 만든 영상을 그냥 이어 붙이면 같은 인물 · 같은 장소라도 자세와 카메라 위치가 조금씩 달라지고 소리도 그 자리에서 새로 시작해 이어지는 순간이 드러납니다. 이번에 사용한 모션 컨텍스트",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:O1B_z4AJpQk",
-   "platform": "YouTube",
-   "title": "9. ControlNet in MOSS-Image from scratch: Depth & Color modes in 8 steps (3.3 s)",
-   "channel": "HaDeS",
-   "channel_id": "UCkxCoLXj8NhJzCkMs_nG2dg",
-   "url": "https://www.youtube.com/watch?v=O1B_z4AJpQk",
-   "published": "2026-11-24T21:56:17+00:00",
-   "description": "I build a MOSS-Image ControlNet workflow in ComfyUI from an empty canvas, one node at a time, with the HaDeS MOSS Suite: extracting a depth map with Depth Anything V2, keeping the pose in 8 steps with Turbo v1.0, and comparing all three color control modes (`off`, `flat regions`, and why `as given` copies photo textures).\n\nEverything in this video is free to download:\n\n▶ Workflow (Control (color, ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:4gmEzsXOO6Q",
-   "platform": "YouTube",
-   "title": "4 STEPS ONLY! The FASTEST Uncensored Local Image Model",
-   "channel": "Olivio Sarikas",
-   "channel_id": "UCCKx8mAHiFus-XYQLy_WnaA",
-   "url": "https://www.youtube.com/watch?v=4gmEzsXOO6Q",
-   "published": "2026-11-24T19:00:11+00:00",
-   "description": "MOSS-Image Turbo LoRA in ComfyUI Install Guide. Get fast, high-quality AI images in just 4 to 8 steps! \n\nIn this ComfyUI tutorial I show you how to install the LoRA Manager custom node, download the MOSS-Image 4-step turbo LoRA straight from Civitai, and add it to the MOSS-Image workflow. \n\nI show you how to addapt the Workflow to make is super easy to use. You'll also learn the best settings for ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
    "id": "yt:EI6XmuOoCDs",
    "platform": "YouTube",
    "title": "MiniMax H3 Singularity V2 – Make AI Characters Sing and Talk in ComfyUI",
@@ -1328,22 +1424,6 @@
    "url": "https://www.youtube.com/watch?v=EI6XmuOoCDs",
    "published": "2026-11-24T13:16:32+00:00",
    "description": "In this video, we'll explore the MiniMax H3 Singularity workflow in ComfyUI, demonstrating two additional video generation techniques: Image + Audio to Video and Video-to-Video.\n\nLearn how to combine reference images, audio clips, video footage, and text prompts to create AI-generated videos using MiniMax H3 Singularity.\n\nWe'll walk through the workflow, demonstrate the settings, and showcase the ",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:KqS_vNY26vQ",
-   "platform": "YouTube",
-   "title": "MiniMax H3 Just Got Faster: Pi-H3 Turbo Setup, Kijai LoRAs & Optimal Settings",
-   "channel": "AI Ninja",
-   "channel_id": "UC8ioMZEYT8mdwyjz9DEy35Q",
-   "url": "https://www.youtube.com/watch?v=KqS_vNY26vQ",
-   "published": "2026-11-24T09:58:25+00:00",
-   "description": "MiniMax H3 video generation just got a massive speed breakthrough! With the new Pi-H3 distilled flow-matching model, you can now render full videos in just 2 to 4 steps—taking render times down from 20 minutes to under a minute.\n\nIn this video, I break down the exact, clean Comfy UI setup using Kijai’s pruned LoRAs and BF16 Sol Attention, so you get blazing-fast renders with better visual quality.",
    "official": false,
    "kind": "other",
    "software": [
@@ -1429,22 +1509,6 @@
    "kind": "other",
    "software": [
     "nuke"
-   ],
-   "score": 0
-  },
-  {
-   "id": "yt:_d6_Y1HSJjQ",
-   "platform": "YouTube",
-   "title": "4 Loras Incriveis Para Minimax H3 no ComfyUI - Velocidade - Realismo - Movimento e Cinematografico",
-   "channel": "Gustavo Honorato - Négocios, IA e Tecnologia",
-   "channel_id": "UC0dY5JcB18DbTI48kg3hu5g",
-   "url": "https://www.youtube.com/watch?v=_d6_Y1HSJjQ",
-   "published": "2026-11-22T21:30:20+00:00",
-   "description": "Cansado de vídeos lentos ou com aspecto artificial gerados por inteligência artificial? Descubra como usar LoRA para Minimax H3 no ComfyUI para transformar suas criações com máximo realismo, movimentos naturais e velocidade surreal. Pare de perder horas esperando renderizações demoradas e leve seus vídeos para o nível cinematográfico hoje mesmo.\n\n🚀 FAÇA PARTE DA NOSSA COMUNIDADE GRATUITA DE NETWOR",
-   "official": false,
-   "kind": "other",
-   "software": [
-    "comfyui"
    ],
    "score": 0
   },
